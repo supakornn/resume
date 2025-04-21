@@ -80,8 +80,8 @@
 			"url": "https://medium.com/@supakornn/webassembly-wasm-ด้วยภาษา-zig-เขียนเว็บด้วยความเร็วระดับ-native-c834a1e85552",
 			"hide": false
 		},
-        {
-            "name": "เขียนเว็บแบบไม่ต้องง้อ JavaScript ด้วย HTMX",
+		{
+			"name": "เขียนเว็บแบบไม่ต้องง้อ JavaScript ด้วย HTMX",
 			"details": "Blog about what HTMX is and how to use it. (TH)",
 			"url": "https://medium.com/@supakornn/เขียนเว็บแบบไม่ง้อ-javascript-ด้วย-htmx-95cf29e03317",
 			"hide": false
@@ -110,7 +110,7 @@
 			"position": "Freelance Developer",
 			"company": "",
 			"url": "https://supakorn.info",
-			"years": ["2021", "2023"],
+			"years": ["2022", "2024"],
 			"details": [
 				"Co-developed a responsive website for business using Next.js and TailwindCSS",
 				"Co-developed a Backend API for a business using NestJS and MongoDB"
