@@ -6,10 +6,18 @@ export interface IProfileResp {
 	experiences: IExperience[];
 	educations: IEducation[];
 	achievements: IArchievement[];
+	writing: IWriting[];
 	resumeUrl: {
 		sourceLink: string;
 		fullVersionLink: string;
 	};
+}
+
+export interface IWriting {
+	name: string;
+	details: string;
+	url: string;
+	hide: boolean;
 }
 
 export interface IArchievement {

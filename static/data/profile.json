@@ -11,7 +11,7 @@
 	},
 	"projects": [
 		{
-			"name": "Thai-Bad-Words",
+			"name": "Thai Bad Words",
 			"details": [
 				"Contributed to a TypeScript library for detecting Thai bad words.",
 				"Optimized search performance by refactoring the data structure to use a Trie.",
@@ -21,23 +21,23 @@
 			"hide": false
 		},
 		{
-			"name": "GoScanner",
+			"name": "Goscanner",
 			"details": [
-                "Built a high-speed, concurrent port scanner in Golang using goroutines for efficient parallel scanning.",
-                "Implemented SYN scanning for stealthier and faster network reconnaissance."
+				"Built a high-speed, concurrent port scanner in Golang using goroutines for efficient parallel scanning.",
+				"Implemented SYN scanning for stealthier and faster network reconnaissance."
 			],
 			"url": "github.com/Supakornn/goscanner",
 			"hide": false
 		},
-        {
-            "name": "MyIP-TUI",
-            "details": [
-                "Developed a Rust-based TUI tool that fetches and displays IP addresses in a clear, user-friendly format.",
-                "Addressed the pain point of confusing ifconfig and ipconfig outputs by simplifying network diagnostics."
-            ],
-            "url": "github.com/Supakornn/myip-tui",
-            "hide": false
-        },
+		{
+			"name": "MyIP",
+			"details": [
+				"Developed a Rust-based TUI tool that fetches and displays IP addresses in a clear, user-friendly format.",
+				"Addressed the pain point of confusing ifconfig and ipconfig outputs by simplifying network diagnostics."
+			],
+			"url": "github.com/Supakornn/myip-tui",
+			"hide": false
+		},
 		{
 			"name": "CodingType",
 			"details": [
@@ -49,7 +49,7 @@
 			"hide": false
 		},
 		{
-			"name": "Valentine-Roses",
+			"name": "Valentine Roses",
 			"details": [
 				"Developed a web application for sending virtual roses to loved ones on Valentine's Day.",
 				"Built with Next and TailwindCSS, featuring a responsive design and intuitive user interface.",
@@ -59,20 +59,31 @@
 			"hide": false
 		},
 		{
-			"name": "Reverse-Shell-Generator",
-			"details": [
-				"Developed a command-line tool in Go to generate reverse shell commands across multiple programming languages and shells.",
-				"Implemented features supporting Bash, Python, PHP, PowerShell, and Netcat, enhancing versatility for various environments."
-			],
-			"url": "github.com/Supakornn/reverse-shell-gen",
-			"hide": false
-		},
-		{
 			"name": "Lynx",
 			"details": [
 				"Enhanced the Lynx project's .gitignore file by adding rules to exclude auto-generated files, particularly Gradle build artifacts.​"
 			],
 			"url": "github.com/lynx-family/lynx/pull/230",
+			"hide": false
+		}
+	],
+	"writing": [
+		{
+			"name": "STH-Mini-Web-CTF-2025 - Write Up",
+			"details": "CTF write-up of the STH Mini Web CTF 2025. (TH)",
+			"url": "https://medium.com/@supakornn/sth-mini-web-ctf-2025-124d36b2f978",
+			"hide": false
+		},
+		{
+			"name": "WebAssembly (WASM) ด้วยภาษา Zig — เขียนเว็บด้วยความเร็วระดับ Native ",
+			"details": "Blog about how to build WebAssembly with Zig. (TH)",
+			"url": "https://medium.com/@supakornn/webassembly-wasm-ด้วยภาษา-zig-เขียนเว็บด้วยความเร็วระดับ-native-c834a1e85552",
+			"hide": false
+		},
+        {
+            "name": "เขียนเว็บแบบไม่ต้องง้อ JavaScript ด้วย HTMX",
+			"details": "Blog about what HTMX is and how to use it. (TH)",
+			"url": "https://medium.com/@supakornn/เขียนเว็บแบบไม่ง้อ-javascript-ด้วย-htmx-95cf29e03317",
 			"hide": false
 		}
 	],
@@ -102,8 +113,7 @@
 			"years": ["2021", "2023"],
 			"details": [
 				"Co-developed a responsive website for business using Next.js and TailwindCSS",
-				"Co-developed a Backend API for a business using NestJS and MongoDB",
-				"Projects range: 5,000 - 150,000 THB"
+				"Co-developed a Backend API for a business using NestJS and MongoDB"
 			]
 		}
 	],
@@ -132,4 +142,3 @@
 		"fullVersion": ""
 	}
 }
-
