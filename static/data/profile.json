@@ -32,7 +32,7 @@
 		{
 			"name": "MyIP",
 			"details": [
-				"Developed a Rust-based TUI tool that fetches and displays IP addresses in a clear, user-friendly format.",
+				"Developed a TUI tool that fetches and displays IP addresses in a clear, user-friendly format.",
 				"Addressed the pain point of confusing ifconfig and ipconfig outputs by simplifying network diagnostics."
 			],
 			"url": "github.com/Supakornn/myip-tui",
@@ -41,9 +41,9 @@
 		{
 			"name": "CodingType",
 			"details": [
-				"Developed a web application for testing typing speed in various programming language syntaxes.",
+				"Developed a web application for test typing speed in various programming language syntaxes.",
 				"Built with Svelte and TailwindCSS, featuring a minimalistic and user-friendly interface.",
-				"Inspired by Monkeytype, offering customizable typing tests with real-time words-per-minute tracking."
+				"Inspired by Monkeytype, offering customizable typing tests with real time words per minute tracking."
 			],
 			"url": "codingtype.vercel.app",
 			"hide": false
@@ -53,7 +53,7 @@
 			"details": [
 				"Developed a web application for sending virtual roses to loved ones on Valentine's Day.",
 				"Built with Next and TailwindCSS, featuring a responsive design and intuitive user interface.",
-				"Integrated with Firebase for real-time database updates and user authentication."
+				"Integrated with Firebase for real time database updates and user authentication."
 			],
 			"url": "valentine-roses.vercel.app",
 			"hide": false
@@ -61,29 +61,29 @@
 		{
 			"name": "Lynx",
 			"details": [
-				"Enhanced the Lynx project's .gitignore file by adding rules to exclude auto-generated files, particularly Gradle build artifacts.​"
+				"Enhanced the Lynx project's .gitignore file by adding rules to exclude auto generated files, particularly Gradle build artifacts.​"
 			],
 			"url": "github.com/lynx-family/lynx/pull/230",
 			"hide": false
 		}
 	],
-	"writing": [
+	"writings": [
+        {
+			"name": "เขียนเว็บแบบไม่ต้องง้อ JavaScript ด้วย HTMX",
+			"details": "Writing about What is HTMX and how to use it to build a web application.",
+			"url": "https://supakorn.info/writings/htmx-basic",
+			"hide": false
+		},
+        {
+			"name": "WebAssembly (WASM) ด้วยภาษา Zig — เขียนเว็บด้วยความเร็วระดับ Native ",
+			"details": "Writing about what is WebAssembly and how to use it with Zig.",
+			"url": "https://supakorn.info/writings/wasm-with-zig",
+			"hide": false
+		},
 		{
 			"name": "STH-Mini-Web-CTF-2025 - Write Up",
-			"details": "CTF write-up of the STH Mini Web CTF 2025. (TH)",
-			"url": "https://medium.com/@supakornn/sth-mini-web-ctf-2025-124d36b2f978",
-			"hide": false
-		},
-		{
-			"name": "WebAssembly (WASM) ด้วยภาษา Zig — เขียนเว็บด้วยความเร็วระดับ Native ",
-			"details": "Blog about how to build WebAssembly with Zig. (TH)",
-			"url": "https://medium.com/@supakornn/webassembly-wasm-ด้วยภาษา-zig-เขียนเว็บด้วยความเร็วระดับ-native-c834a1e85552",
-			"hide": false
-		},
-		{
-			"name": "เขียนเว็บแบบไม่ต้องง้อ JavaScript ด้วย HTMX",
-			"details": "Blog about what HTMX is and how to use it. (TH)",
-			"url": "https://medium.com/@supakornn/เขียนเว็บแบบไม่ง้อ-javascript-ด้วย-htmx-95cf29e03317",
+			"details": "Write up for the STH-Mini-Web-CTF-2025.",
+			"url": "https://supakorn.info/writings/sth-mini-web-ctf-2025-write-up",
 			"hide": false
 		}
 	],
@@ -107,13 +107,13 @@
 	],
 	"experiences": [
 		{
-			"position": "Freelance Developer",
-			"company": "",
-			"url": "https://supakorn.info",
+			"position": "Developer",
+			"company": "Freelance",
+			"url": "",
 			"years": ["2022", "2024"],
 			"details": [
-				"Co-developed a responsive website for business using Next.js and TailwindCSS",
-				"Co-developed a Backend API for a business using NestJS and MongoDB"
+				"Co-developed a responsive website for business using Next.js, TailwindCSS",
+				"Co-developed a backend API for a business using Nest.js, MongoDB, PostgreSQL"
 			]
 		}
 	],

@@ -6,7 +6,7 @@ export interface IProfileResp {
 	experiences: IExperience[];
 	educations: IEducation[];
 	achievements: IArchievement[];
-	writing: IWriting[];
+	writings: IWriting[];
 	resumeUrl: {
 		sourceLink: string;
 		fullVersionLink: string;

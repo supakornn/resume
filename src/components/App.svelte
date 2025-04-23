@@ -15,7 +15,7 @@
 		experiences = [],
 		educations = [],
 		achievements = [],
-		writing = [],
+		writings = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
 	} = profile || {});
 
@@ -116,10 +116,10 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Writing</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Writings</h2>
 			<hr />
 
-			{#each writing as article}
+			{#each writings as article}
 				<Hideable hide={article.hide}>
 					<div class="text-left">
 						<ul class="list-disc pl-8">
