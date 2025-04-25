@@ -11,6 +11,7 @@
 	$: ({
 		intro = {} as IProfileResp['intro'],
 		projects = [],
+		contributions = [],
 		technologies = [],
 		experiences = [],
 		educations = [],
@@ -85,6 +86,31 @@
 
 			{#each experiences as exp}
 				<Work {...exp} />
+			{/each}
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Contributions</h2>
+			<hr />
+
+			{#each contributions as contribution}
+				<Hideable hide={contribution.hide}>
+					<div class="text-left">
+						<div class="flex justify-between mb-2">
+							<strong>{contribution.name}</strong>
+							<a href="https://{contribution.url}" target="_blank" rel="noreferrer"
+								><strong>{contribution.url}</strong></a
+							>
+						</div>
+						<ul class="text-left list-disc pl-8">
+							{#each contribution.details as detail}
+								<li>{detail}</li>
+							{/each}
+						</ul>
+					</div>
+				</Hideable>
 			{/each}
 		</Hideable>
 	</section>

@@ -11,16 +11,6 @@
 	},
 	"projects": [
 		{
-			"name": "Thai Bad Words",
-			"details": [
-				"Contributed to a TypeScript library for detecting Thai bad words.",
-				"Optimized search performance by refactoring the data structure to use a Trie.",
-				"Implemented unit testing with Jest to enhance code reliability."
-			],
-			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
-			"hide": false
-		},
-		{
 			"name": "Goscanner",
 			"details": [
 				"Built a high-speed, concurrent port scanner in Golang using goroutines for efficient parallel scanning.",
@@ -41,9 +31,9 @@
 		{
 			"name": "CodingType",
 			"details": [
-				"Developed a web application for test typing speed in various programming language syntaxes.",
-				"Built with Svelte and TailwindCSS, featuring a minimalistic and user-friendly interface.",
-				"Inspired by Monkeytype, offering customizable typing tests with real time words per minute tracking."
+                "Developed a web application for generating random coding types.",
+                "Built with Next and TailwindCSS, featuring a responsive design and intuitive user interface.",
+                "Inspired by Monkeytype, offering customizable typing tests with real time words per minute tracking."
 			],
 			"url": "codingtype.vercel.app",
 			"hide": false
@@ -52,21 +42,50 @@
 			"name": "Valentine Roses",
 			"details": [
 				"Developed a web application for sending virtual roses to loved ones on Valentine's Day.",
-				"Built with Next and TailwindCSS, featuring a responsive design and intuitive user interface.",
-				"Integrated with Firebase for real time database updates and user authentication."
+				"Built with Next and TailwindCSS, featuring a responsive design and intuitive user interface."
 			],
 			"url": "valentine-roses.vercel.app",
 			"hide": false
 		},
-		{
-			"name": "Lynx",
-			"details": [
-				"Enhanced the Lynx project's .gitignore file by adding rules to exclude auto generated files, particularly Gradle build artifacts.​"
-			],
-			"url": "github.com/lynx-family/lynx/pull/230",
-			"hide": false
-		}
+        {
+            "name": "Zigbrute",
+            "details": [
+                "Developed a CLI tool for brute force attacks on websites.",
+                "Built with Zig for high performance and efficiency."
+            ],
+            "url": "github.com/Supakornn/zigbrute",
+            "hide": false
+        },
+        {
+            "name": "Reverse Shell Gen",
+            "details": [
+                "Developed a CLI tool for generating reverse shells in various programming languages.",
+                "Built with Go for high performance and efficiency."
+            ],
+            "url": "github.com/Supakornn/reverse-shell-gen",
+            "hide": false
+        }
 	],
+    "contributions": [
+        {
+            "name": "Thai Bad Words",
+            "details": [
+                "Co-Contributed to a TypeScript library for detecting Thai bad words.",
+                "Refactored the code to improve performance by changing the data structure to use Trie.",
+                "Implemented a unit test for the library with Jest."
+            ],
+            "url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
+            "hide": false
+        },
+        {
+            "name": "Lynx",
+            "details": [
+                "Contributed to the Lynx project's .gitignore file by adding rules to exclude auto generated files, particularly Gradle build artifacts."
+            ],
+            "url": "github.com/lynx-family/lynx/pull/230",
+            "hide": false
+        }
+    ],
 	"writings": [
         {
 			"name": "เขียนเว็บแบบไม่ต้องง้อ JavaScript ด้วย HTMX",
@@ -106,14 +125,26 @@
 		}
 	],
 	"experiences": [
+        {
+            "position": "Founder & Developer (Part-Time)",
+            "company": "SnimTech",
+            "url": "https://www.facebook.com/snimtech?locale=th_TH",
+            "years": ["2024", "Present"],
+            "details": [
+                "Develop and maintain web applications using React, Next.js, TailwindCSS and mores.",
+                "Implement responsive design and ensure cross-browser compatibility.",
+                "Optimize performance and maintain code quality."
+            ]
+        },
 		{
-			"position": "Developer",
+			"position": "Freelance Developer (Part-Time)",
 			"company": "Freelance",
 			"url": "",
 			"years": ["2022", "2024"],
 			"details": [
-				"Co-developed a responsive website for business using Next.js, TailwindCSS",
-				"Co-developed a backend API for a business using Nest.js, MongoDB, PostgreSQL"
+                "Developed a responsive website for business using Next.js, TailwindCSS",
+                "Developed a backend api for a business using Nest.js, MongoDB, PostgreSQL",
+                "Optimized performance and maintain code quality."
 			]
 		}
 	],

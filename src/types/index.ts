@@ -2,6 +2,7 @@
 export interface IProfileResp {
 	intro: IIntro;
 	projects: IProject[];
+	contributions: IContribution[];
 	technologies: ITechnology[];
 	experiences: IExperience[];
 	educations: IEducation[];
@@ -13,6 +14,12 @@ export interface IProfileResp {
 	};
 }
 
+export interface IContribution {
+	name: string;
+	details: string;
+	url: string;
+	hide: boolean;
+}
 export interface IWriting {
 	name: string;
 	details: string;
