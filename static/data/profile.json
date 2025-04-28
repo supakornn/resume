@@ -31,9 +31,9 @@
 		{
 			"name": "CodingType",
 			"details": [
-                "Developed a web application for generating random coding types.",
-                "Built with Next and TailwindCSS, featuring a responsive design and intuitive user interface.",
-                "Inspired by Monkeytype, offering customizable typing tests with real time words per minute tracking."
+				"Developed a web application for generating random coding types.",
+				"Built with Next and TailwindCSS, featuring a responsive design and intuitive user interface.",
+				"Inspired by Monkeytype, offering customizable typing tests with real time words per minute tracking."
 			],
 			"url": "codingtype.vercel.app",
 			"hide": false
@@ -47,53 +47,53 @@
 			"url": "valentine-roses.vercel.app",
 			"hide": false
 		},
-        {
-            "name": "Zigbrute",
-            "details": [
-                "Developed a CLI tool for brute force attacks on websites.",
-                "Built with Zig for high performance and efficiency."
-            ],
-            "url": "github.com/Supakornn/zigbrute",
-            "hide": false
-        },
-        {
-            "name": "Reverse Shell Gen",
-            "details": [
-                "Developed a CLI tool for generating reverse shells in various programming languages.",
-                "Built with Go for high performance and efficiency."
-            ],
-            "url": "github.com/Supakornn/reverse-shell-gen",
-            "hide": false
-        }
+		{
+			"name": "Zigbrute",
+			"details": [
+				"Developed a CLI tool for brute force attacks on websites.",
+				"Built with Zig for high performance and efficiency."
+			],
+			"url": "github.com/Supakornn/zigbrute",
+			"hide": false
+		},
+		{
+			"name": "Reverse Shell Gen",
+			"details": [
+				"Developed a CLI tool for generating reverse shells in various programming languages.",
+				"Built with Go for high performance and efficiency."
+			],
+			"url": "github.com/Supakornn/reverse-shell-gen",
+			"hide": false
+		}
 	],
-    "contributions": [
-        {
-            "name": "Thai Bad Words",
-            "details": [
-                "Co-Contributed to a TypeScript library for detecting Thai bad words.",
-                "Refactored the code to improve performance by changing the data structure to use Trie.",
-                "Implemented a unit test for the library with Jest."
-            ],
-            "url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
-            "hide": false
-        },
-        {
-            "name": "Lynx",
-            "details": [
-                "Contributed to the Lynx project's .gitignore file by adding rules to exclude auto generated files, particularly Gradle build artifacts."
-            ],
-            "url": "github.com/lynx-family/lynx/pull/230",
-            "hide": false
-        }
-    ],
+	"contributions": [
+		{
+			"name": "Thai Bad Words",
+			"details": [
+				"Co-Contributed to a TypeScript library for detecting Thai bad words.",
+				"Refactored the code to improve performance by changing the data structure to use Trie.",
+				"Implemented a unit test for the library with Jest."
+			],
+			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
+			"hide": false
+		},
+		{
+			"name": "Lynx",
+			"details": [
+				"Contributed to the Lynx project's .gitignore file by adding rules to exclude auto generated files, particularly Gradle build artifacts."
+			],
+			"url": "github.com/lynx-family/lynx/pull/230",
+			"hide": false
+		}
+	],
 	"writings": [
-        {
+		{
 			"name": "เขียนเว็บแบบไม่ต้องง้อ JavaScript ด้วย HTMX",
 			"details": "Writing about What is HTMX and how to use it to build a web application.",
 			"url": "https://supakorn.info/writings/htmx-basic",
 			"hide": false
 		},
-        {
+		{
 			"name": "WebAssembly (WASM) ด้วยภาษา Zig — เขียนเว็บด้วยความเร็วระดับ Native ",
 			"details": "Writing about what is WebAssembly and how to use it with Zig.",
 			"url": "https://supakorn.info/writings/wasm-with-zig",
@@ -125,26 +125,26 @@
 		}
 	],
 	"experiences": [
-        {
-            "position": "Founder & Developer (Part-Time)",
-            "company": "SnimTech",
-            "url": "https://www.facebook.com/snimtech?locale=th_TH",
-            "years": ["2024", "Present"],
-            "details": [
-                "Develop and maintain web applications using React, Next.js, TailwindCSS and mores.",
-                "Implement responsive design and ensure cross-browser compatibility.",
-                "Optimize performance and maintain code quality."
-            ]
-        },
+		{
+			"position": "Full Stack Developer (Part-Time)",
+			"company": "SnimTech",
+			"url": "https://www.facebook.com/snimtech?locale=th_TH",
+			"years": ["2024", "Present"],
+			"details": [
+				"Develop and maintain web applications using React, Next.js, TailwindCSS and mores.",
+				"Implement responsive design and ensure cross-browser compatibility.",
+				"Optimize performance and maintain code quality."
+			]
+		},
 		{
 			"position": "Freelance Developer (Part-Time)",
 			"company": "Freelance",
 			"url": "",
 			"years": ["2022", "2024"],
 			"details": [
-                "Developed a responsive website for business using Next.js, TailwindCSS",
-                "Developed a backend api for a business using Nest.js, MongoDB, PostgreSQL",
-                "Optimized performance and maintain code quality."
+				"Developed a responsive website for business using Next.js, TailwindCSS",
+				"Developed a backend api for a business using Nest.js, MongoDB, PostgreSQL",
+				"Optimized performance and maintain code quality."
 			]
 		}
 	],
