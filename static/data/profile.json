@@ -129,24 +129,13 @@
 			"position": "Full Stack Developer (Part-Time)",
 			"company": "SnimTech",
 			"url": "https://www.facebook.com/snimtech?locale=th_TH",
-			"years": ["2024", "Present"],
+			"years": ["2024", "2025"],
 			"details": [
 				"Develop and maintain web applications using React, Next.js, TailwindCSS and mores.",
 				"Implement responsive design and ensure cross-browser compatibility.",
 				"Optimize performance and maintain code quality."
 			]
 		},
-		{
-			"position": "Freelance Developer (Part-Time)",
-			"company": "Freelance",
-			"url": "",
-			"years": ["2022", "2024"],
-			"details": [
-				"Developed a responsive website for business using Next.js, TailwindCSS",
-				"Developed a backend api for a business using Nest.js, MongoDB, PostgreSQL",
-				"Optimized performance and maintain code quality."
-			]
-		}
 	],
 	"educations": [
 		{
