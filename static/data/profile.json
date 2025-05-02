@@ -131,9 +131,8 @@
 			"url": "https://www.facebook.com/snimtech?locale=th_TH",
 			"years": ["2024", "2025"],
 			"details": [
+				"I founded and lead a small developer team under the name SnimTech",
 				"Develop and maintain web applications using React, Next.js, TailwindCSS and mores.",
-				"Implement responsive design and ensure cross-browser compatibility.",
-				"Optimize performance and maintain code quality."
 			]
 		}
 	],
