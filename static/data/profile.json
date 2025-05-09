@@ -25,7 +25,7 @@
 				"Developed a TUI tool that fetches and displays IP addresses in a clear, user-friendly format.",
 				"Addressed the pain point of confusing ifconfig and ipconfig outputs by simplifying network diagnostics."
 			],
-			"url": "github.com/Supakornn/myip-tui",
+			"url": "crates.io/crates/myip-tui",
 			"hide": false
 		},
 		{
