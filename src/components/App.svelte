@@ -92,7 +92,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Contributions</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Contributions & Volunteering</h2>
 			<hr />
 
 			{#each contributions as contribution}
@@ -164,7 +164,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Achievements</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Achievements & Certificates</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">

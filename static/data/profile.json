@@ -55,19 +55,18 @@
 			],
 			"url": "github.com/Supakornn/zigbrute",
 			"hide": false
-		},
-		{
-			"name": "Reverse Shell Gen",
-			"details": [
-				"Developed a CLI tool for generating reverse shells in various programming languages.",
-				"Built with Go for high performance and efficiency."
-			],
-			"url": "github.com/Supakornn/reverse-shell-gen",
-			"hide": false
 		}
 	],
 	"contributions": [
 		{
+			"name": "Lynx",
+			"details": [
+				"Contributed to the Lynx project's .gitignore file by adding rules to exclude auto generated files, particularly Gradle build artifacts."
+			],
+			"url": "github.com/lynx-family/lynx/pull/230",
+			"hide": false
+		},
+        {
 			"name": "Thai Bad Words",
 			"details": [
 				"Co-Contributed to a TypeScript library for detecting Thai bad words.",
@@ -77,14 +76,16 @@
 			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
 			"hide": false
 		},
-		{
-			"name": "Lynx",
-			"details": [
-				"Contributed to the Lynx project's .gitignore file by adding rules to exclude auto generated files, particularly Gradle build artifacts."
-			],
-			"url": "github.com/lynx-family/lynx/pull/230",
-			"hide": false
-		}
+        {
+            "name": "The Stupid Hackathon Thailand X KMUTT",
+            "details" : [
+                "Worked as a staff of ticket team.",
+                "Developed a Challenge for solving the problem to earn  ticket.",
+                "Some of the challenges are: jabvela.vercel.app/, github.com/Supakornn/clone-repo, etc."
+            ],
+            "url": "shit.8.125.stupid.hackathon.in.th/",
+            "hide": false
+        }
 	],
 	"writings": [
 		{
@@ -126,15 +127,27 @@
 	],
 	"experiences": [
 		{
-			"position": "Freelance Developer (Part-Time)",
+			"position": "Full Stack Developer (Part-Time)",
 			"company": "SnimTech",
 			"url": "https://www.facebook.com/snimtech?locale=th_TH",
 			"years": ["2024", "2025"],
 			"details": [
 				"I founded and lead a small developer team under the name SnimTech.",
-				"Develop and maintain web applications using React, Next.js, TailwindCSS and mores."
+				"Develop and maintain web applications using React, Next.js, TailwindCSS and mores.",
+                "Design and implement the database schema and backend API using NestJS."
 			]
-		}
+		},
+        {
+            "position": "Freelance Developer (Part-Time)",
+            "company": "Freelance",
+            "url": "",
+            "years": ["2023", "2024"],
+            "details": [
+                "Working on a project for a client to develop a web application using React, Next.js, TailwindCSS and mores.",
+                "Designed the database schema and implemented the backend API using NestJS.",
+                "Many projects are websites for a online business. such as Game Store, etc."
+            ]
+        }
 	],
 	"educations": [
 		{

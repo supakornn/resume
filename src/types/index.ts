@@ -14,6 +14,8 @@ export interface IProfileResp {
 	};
 }
 
+
+
 export interface IContribution {
 	name: string;
 	details: string;
