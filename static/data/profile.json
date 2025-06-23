@@ -65,13 +65,13 @@
 		{
 			"name": "Lynx",
 			"details": [
-                "Edit the .gitignore file to exclude auto generated files, particularly Gradle build artifacts."
+                "Improve the .gitignore file to exclude auto generated files, particularly Gradle build artifacts."
 			],
 			"url": "github.com/lynx-family/lynx/pull/230",
 			"hide": false
 		},
         {
-			"name": "(Co-Contributed) - Thai Bad Words",
+			"name": "(Co-Contributor) - Thai Bad Words",
 			"details": [
                 "Refactor the whole data structure and algorithm for better searching performance.",
                 "Implement a unit test with Jest."
