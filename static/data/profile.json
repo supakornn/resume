@@ -11,47 +11,51 @@
 	},
 	"projects": [
 		{
-			"name": "Goscanner",
+			"name": "Goscanner - Port scanner written in Go.",
 			"details": [
-				"Built a high-speed, concurrent port scanner in Golang using goroutines for efficient parallel scanning.",
-				"Implemented SYN scanning for stealthier and faster network reconnaissance."
-			],
+                "Developed with goroutines and channels to make it faster and more efficient.",
+                "Customizable options for the user to choose the port range, scan technique, etc.",
+                "Tech Stack: Golang, cobra, etc."
+            ],
 			"url": "github.com/Supakornn/goscanner",
 			"hide": false
 		},
 		{
-			"name": "MyIP",
+			"name": "MyIP - Terminal UI for network interface monitoring.",
 			"details": [
-				"Developed a TUI tool that fetches and displays IP addresses in a clear, user-friendly format.",
-				"Addressed the pain point of confusing ifconfig and ipconfig outputs by simplifying network diagnostics."
+                "Developed a TUI tool that fetches and displays IP addresses in a clear, user-friendly format.",
+				"Addressed the pain point of confusing ifconfig and ipconfig outputs by simplifying network diagnostics.",
+                "Tech Stack: Rust, Ratatui, etc."
 			],
 			"url": "crates.io/crates/myip-tui",
 			"hide": false
 		},
 		{
-			"name": "CodingType",
+			"name": "CodingType - Web application for testing your coding speed.",
 			"details": [
-				"Developed a web application for generating random coding types.",
-				"Built with Next and TailwindCSS, featuring a responsive design and intuitive user interface.",
-				"Inspired by Monkeytype, offering customizable typing tests with real time words per minute tracking."
+                "Developed a web application for testing coding speed in multiple programming languages syntax.",
+				"Tracking the typing speed in real time and calculate the accuracy.",
+                "Tech Stack: Svelte.js, TailwindCSS, etc."
 			],
 			"url": "codingtype.vercel.app",
 			"hide": false
 		},
 		{
-			"name": "Valentine Roses",
+			"name": "Valentine Roses - Website for sending a roses card to your loved ones.",
 			"details": [
-				"Developed a web application for sending virtual roses to loved ones on Valentine's Day.",
-				"Built with Next and TailwindCSS, featuring a responsive design and intuitive user interface."
+                "Developed a web application for sending roses to loved ones on Valentine's Day.",
+                "Design for privacy with a password protection to unlock the card.",
+                "Tech Stack: Next.js, TailwindCSS, Firebase, etc."
 			],
 			"url": "valentine-roses.vercel.app",
 			"hide": false
 		},
 		{
-			"name": "Zigbrute",
+			"name": "Zigbrute - Password cracking tool.",
 			"details": [
-				"Developed a CLI tool for brute force attacks on websites.",
-				"Built with Zig for high performance and efficiency."
+				"Developed a tool for password cracking without knowing the hash type.",
+                "Cracking the password with a lot of techniques and algorithms to find the correct password.",
+                "Tech Stack: Zig, etc."
 			],
 			"url": "github.com/Supakornn/zigbrute",
 			"hide": false
@@ -61,27 +65,25 @@
 		{
 			"name": "Lynx",
 			"details": [
-				"Contributed to the Lynx project's .gitignore file by adding rules to exclude auto generated files, particularly Gradle build artifacts."
+                "Edit the .gitignore file to exclude auto generated files, particularly Gradle build artifacts."
 			],
 			"url": "github.com/lynx-family/lynx/pull/230",
 			"hide": false
 		},
         {
-			"name": "Thai Bad Words",
+			"name": "(Co-Contributed) - Thai Bad Words",
 			"details": [
-				"Co-Contributed to a TypeScript library for detecting Thai bad words.",
-				"Refactored the code to improve performance by changing the data structure to use Trie.",
-				"Implemented a unit test for the library with Jest."
+                "Refactor the whole data structure and algorithm for better searching performance.",
+                "Implement a unit test with Jest."
 			],
 			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
 			"hide": false
 		},
         {
-            "name": "The Stupid Hackathon Thailand X KMUTT",
+            "name": "(Staff) - The Stupid Hackathon Thailand X KMUTT",
             "details" : [
-                "Worked as a staff of ticket team.",
-                "Developed a Challenge for solving the problem to earn  ticket.",
-                "Some of the challenges are: jabvela.vercel.app/, github.com/Supakornn/clone-repo, etc."
+                "Developed a Challenge for solving the problem to earn the ticket.",
+                "Ex. jabvela.vercel.app/, github.com/Supakornn/clone-repo, etc."
             ],
             "url": "shit.8.125.stupid.hackathon.in.th/",
             "hide": false
@@ -132,27 +134,25 @@
 			"url": "https://www.facebook.com/snimtech?locale=th_TH",
 			"years": ["2024", "2025"],
 			"details": [
-				"I founded and lead a small developer team under the name SnimTech.",
-				"Develop and maintain web applications using React, Next.js, TailwindCSS and mores.",
-                "Design and implement the database schema and backend API using NestJS."
-			]
+                "Founded and lead a freelance development team under the SnimTech",
+                "Delivering custom software solutions to client requirements across a wide range of technologies."
+            ]
 		},
         {
             "position": "Freelance Developer (Part-Time)",
             "company": "Freelance",
             "url": "",
-            "years": ["2023", "2024"],
+            "years": ["2022", "2024"],
             "details": [
-                "Working on a project for a client to develop a web application using React, Next.js, TailwindCSS and mores.",
-                "Designed the database schema and implemented the backend API using NestJS.",
-                "Many projects are websites for a online business. such as Game Store, etc."
+                "Developed a full-stack web application for a client for their online business.",
+                "Develop & Design Project Architecture, Database Schema, Backend API, Frontend UI/UX, etc."
             ]
         }
 	],
 	"educations": [
 		{
 			"head": "B.Sc. Infomation Technology",
-			"details": "King Mongkut's University of Technology Thonburi, TH. 2024-Present (GPA 3.70)"
+			"details": "King Mongkut's University of Technology Thonburi, TH. 2024-Present (GPAX 3.77)"
 		}
 	],
 	"achievements": [
