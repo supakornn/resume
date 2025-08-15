@@ -156,6 +156,10 @@
 		}
 	],
 	"achievements": [
+        {
+            "title": "HackTheBox Penetration Tester Job Role Path",
+            "link": "https://academy.hackthebox.com/achievement/1467577/path/16"
+        },
 		{
 			"title": "Devlab rank 388 from total ~60,000 participants",
 			"link": "https://www.borntodev.com/devlab/certificate/b244cfccd28c9855b0c60b6f37982eef"
