@@ -1,4 +1,3 @@
-
 export interface IProfileResp {
 	intro: IIntro;
 	projects: IProject[];
@@ -7,14 +6,11 @@ export interface IProfileResp {
 	experiences: IExperience[];
 	educations: IEducation[];
 	achievements: IArchievement[];
-	writings: IWriting[];
 	resumeUrl: {
 		sourceLink: string;
 		fullVersionLink: string;
 	};
 }
-
-
 
 export interface IContribution {
 	name: string;
@@ -22,16 +18,10 @@ export interface IContribution {
 	url: string;
 	hide: boolean;
 }
-export interface IWriting {
-	name: string;
-	details: string;
-	url: string;
-	hide: boolean;
-}
 
 export interface IArchievement {
-    title: string;
-    link: string;
+	title: string;
+	link: string;
 }
 export interface IIntro {
 	name: string;
