@@ -12,11 +12,10 @@
 		intro = {} as IProfileResp['intro'],
 		projects = [],
 		contributions = [],
-		technologies = [],
+		// technologies = [],
 		experiences = [],
 		educations = [],
 		achievements = [],
-		writings = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
 	} = profile || {});
 
@@ -133,28 +132,6 @@
 							{#each project.details as detail}
 								<li>{detail}</li>
 							{/each}
-						</ul>
-					</div>
-				</Hideable>
-			{/each}
-		</Hideable>
-	</section>
-
-	<section>
-		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Writings</h2>
-			<hr />
-
-			{#each writings as article}
-				<Hideable hide={article.hide}>
-					<div class="text-left">
-						<ul class="list-disc pl-8">
-							<li class="mb-2 flex">
-								<a href={article.url} target="_blank" rel="noreferrer">
-									<strong>{article.name}</strong>
-								</a>
-								<p class="ml-2">{article.details}</p>
-							</li>
 						</ul>
 					</div>
 				</Hideable>

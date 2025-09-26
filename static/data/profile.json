@@ -13,29 +13,29 @@
 		{
 			"name": "Goscanner - Port scanner written in Go.",
 			"details": [
-                "Developed with goroutines and channels to make it faster and more efficient.",
-                "Customizable options for the user to choose the port range, scan technique, etc.",
-                "Tech Stack: Golang, cobra, etc."
-            ],
+				"Port Scanner for network testing, information gathering.",
+				"Design for fast and efficient scanning with goroutines.",
+				"Tech Stack: Go, Cobra."
+			],
 			"url": "github.com/Supakornn/goscanner",
 			"hide": false
 		},
 		{
 			"name": "MyIP - Terminal UI for network interface monitoring.",
 			"details": [
-                "Developed a TUI tool that fetches and displays IP addresses in a clear, user-friendly format.",
-				"Addressed the pain point of confusing ifconfig and ipconfig outputs by simplifying network diagnostics.",
-                "Tech Stack: Rust, Ratatui, etc."
+				"Terminal UI tool for fetching and displaying IP addresses in a clear, user-friendly format.",
+				"Addressed the pain point of confusing ifconfig/ipconfig outputs.",
+				"Tech Stack: Rust, Ratatui."
 			],
 			"url": "crates.io/crates/myip-tui",
 			"hide": false
 		},
 		{
-			"name": "CodingType - Web application for testing your coding speed.",
+			"name": "Codingtype - Web application for testing your coding speed.",
 			"details": [
-                "Developed a web application for testing coding speed in multiple programming languages syntax.",
+				"Web application for testing coding speed in multiple programming languages syntax.",
 				"Tracking the typing speed in real time and calculate the accuracy.",
-                "Tech Stack: Svelte.js, TailwindCSS, etc."
+				"Tech Stack: Svelte.js, TailwindCSS."
 			],
 			"url": "codingtype.vercel.app",
 			"hide": false
@@ -43,21 +43,31 @@
 		{
 			"name": "Valentine Roses - Website for sending a roses card to your loved ones.",
 			"details": [
-                "Developed a web application for sending roses to loved ones on Valentine's Day.",
-                "Design for privacy with a password protection to unlock the card.",
-                "Tech Stack: Next.js, TailwindCSS, Firebase, etc."
+				"Web application for sending roses to loved ones on Valentine's Day.",
+				"Design for privacy with a password protection to unlock the card.",
+				"Tech Stack: Next.js, TailwindCSS, Firebase."
 			],
 			"url": "valentine-roses.vercel.app",
 			"hide": false
 		},
 		{
-			"name": "Zigbrute - Password cracking tool.",
+			"name": "Hexagonal Go - E-Commerce API Services.",
 			"details": [
-				"Developed a tool for password cracking without knowing the hash type.",
-                "Cracking the password with a lot of techniques and algorithms to find the correct password.",
-                "Tech Stack: Zig, etc."
+				"Simple RESTful API for E-Commerce.",
+				"Implemented a clean architecture using the Hexagonal Architecture pattern.",
+				"Tech Stack: Go, Fiber, PostgreSQL, Docker."
 			],
-			"url": "github.com/Supakornn/zigbrute",
+			"url": "github.com/Supakornn/hexagonal-go",
+			"hide": false
+		},
+		{
+			"name": "MMORPG Shop - Game's items shop services.",
+			"details": [
+				"Microservice design of game's items shop services.",
+				"Implemented Clean Architecture and applied Domain-Driven Design.",
+				"Tech Stack: Go, Echo, MongoDB, Docker, gRPC, Kafka."
+			],
+			"url": "github.com/Supakornn/mmorpg-shop",
 			"hide": false
 		}
 	],
@@ -65,47 +75,27 @@
 		{
 			"name": "Lynx",
 			"details": [
-                "Improve the .gitignore file to exclude auto generated files, particularly Gradle build artifacts."
+				"Improve the .gitignore file to exclude auto generated files, particularly Gradle build artifacts."
 			],
 			"url": "github.com/lynx-family/lynx/pull/230",
 			"hide": false
 		},
-        {
+		{
 			"name": "(Co-Contributor) - Thai Bad Words",
 			"details": [
-                "Refactor the whole data structure and algorithm for better searching performance.",
-                "Implement a unit test with Jest."
+				"Refactor the whole data structure and algorithm for better searching performance.",
+				"Implement a unit test with Jest."
 			],
 			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
 			"hide": false
 		},
-        {
-            "name": "(Staff) - The Stupid Hackathon Thailand X KMUTT",
-            "details" : [
-                "Developed a Challenge for solving the problem to earn the ticket.",
-                "e.g. jabvela.vercel.app/, github.com/Supakornn/clone-repo, etc."
-            ],
-            "url": "shit.8.125.stupid.hackathon.in.th/",
-            "hide": false
-        }
-	],
-	"writings": [
 		{
-			"name": "เขียนเว็บแบบไม่ต้องง้อ JavaScript ด้วย HTMX",
-			"details": "Writing about What is HTMX and how to use it to build a web application.",
-			"url": "https://supakorn.info/writings/htmx-basic",
-			"hide": false
-		},
-		{
-			"name": "WebAssembly (WASM) ด้วยภาษา Zig — เขียนเว็บด้วยความเร็วระดับ Native ",
-			"details": "Writing about what is WebAssembly and how to use it with Zig.",
-			"url": "https://supakorn.info/writings/wasm-with-zig",
-			"hide": false
-		},
-		{
-			"name": "STH-Mini-Web-CTF-2025 - Write Up",
-			"details": "Write up for the STH-Mini-Web-CTF-2025.",
-			"url": "https://supakorn.info/writings/sth-mini-web-ctf-2025-write-up",
+			"name": "(Staff) - The Stupid Hackathon Thailand X KMUTT",
+			"details": [
+				"Developed a Challenge for solving the problem to earn the ticket.",
+				"e.g. jabvela.vercel.app/, github.com/Supakornn/clone-repo, etc."
+			],
+			"url": "shit.8.125.stupid.hackathon.in.th/",
 			"hide": false
 		}
 	],
@@ -134,20 +124,17 @@
 			"url": "https://www.facebook.com/snimtech?locale=th_TH",
 			"years": ["2024", "2025"],
 			"details": [
-                "Founded and lead a freelance development team under the SnimTech",
-                "Delivering custom software solutions to client requirements across a wide range of technologies."
-            ]
+				"Founded and lead a freelance development team under the SnimTech",
+				"Delivering custom software solutions to client requirements across a wide range of technologies."
+			]
 		},
-        {
-            "position": "Freelance Developer (Part-Time)",
-            "company": "Freelance",
-            "url": "",
-            "years": ["2022", "2024"],
-            "details": [
-                "Developed a full-stack web application for a client for their online business.",
-                "Develop & Design Project Architecture, Database Schema, Backend API, Frontend UI/UX, etc."
-            ]
-        }
+		{
+			"position": "Freelance Developer (Part-Time)",
+			"company": "Freelance",
+			"url": "",
+			"years": ["2022", "2024"],
+			"details": ["Developed a full-stack web application for a client for their online business."]
+		}
 	],
 	"educations": [
 		{
@@ -156,12 +143,12 @@
 		}
 	],
 	"achievements": [
-        {
-            "title": "HackTheBox Penetration Tester Job Role Path",
-            "link": "https://academy.hackthebox.com/achievement/1467577/path/16"
-        },
 		{
-			"title": "Devlab rank 388 from total ~60,000 participants",
+			"title": "HackTheBox Penetration Tester Job Role Path",
+			"link": "https://academy.hackthebox.com/achievement/1467577/path/16"
+		},
+		{
+			"title": "Devlab rank 388 from total ~70,000 participants",
 			"link": "https://www.borntodev.com/devlab/certificate/b244cfccd28c9855b0c60b6f37982eef"
 		},
 		{
