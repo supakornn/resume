@@ -73,29 +73,66 @@
 	],
 	"contributions": [
 		{
-			"name": "Lynx",
+			"name": "(Co-Contributor) Thai Bad Words - Library for detecting Thai bad words.",
 			"details": [
-				"Improve the .gitignore file to exclude auto generated files, particularly Gradle build artifacts."
-			],
-			"url": "github.com/lynx-family/lynx/pull/230",
-			"hide": false
-		},
-		{
-			"name": "(Co-Contributor) - Thai Bad Words",
-			"details": [
-				"Refactor the whole data structure and algorithm for better searching performance.",
-				"Implement a unit test with Jest."
+				"Refactored the data structure and algorithm for better searching performance.",
+				"Implemented a unit test with Jest."
 			],
 			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
 			"hide": false
 		},
 		{
-			"name": "(Staff) - The Stupid Hackathon Thailand X KMUTT",
-			"details": [
-				"Developed a Challenge for solving the problem to earn the ticket.",
-				"e.g. jabvela.vercel.app/, github.com/Supakornn/clone-repo, etc."
-			],
+			"name": "(Staff) The Stupid Hackathon Thailand X KMUTT",
+			"details": ["Developed a Challenge for solving the problem to earn the ticket."],
 			"url": "shit.8.125.stupid.hackathon.in.th/",
+			"hide": false
+		},
+		{
+			"name": "Lynx - Cross-Platform UI framework",
+			"details": ["Improved the .gitignore to exclude auto generated files."],
+			"url": "github.com/lynx-family/lynx/pull/230",
+			"hide": false
+		},
+		{
+			"name": "RustScan - The Modern Port Scanner",
+			"details": ["Added funny quotes for printing in CLI while running."],
+			"url": "github.com/bee-san/RustScan/pull/759",
+			"hide": false
+		},
+		{
+			"name": "Axios - HTTP Client for JavaScript",
+			"details": ["Fixed broken links in documentation."],
+			"url": "github.com/axios/axios/pull/7065",
+			"hide": false
+		},
+		{
+			"name": "DrawDB - Database diagram editor",
+			"details": ["Improved documentation for better readability"],
+			"url": "github.com/drawdb-io/drawdb/pull/595",
+			"hide": false
+		},
+		{
+			"name": "Goyave - Golang REST API framework",
+			"details": ["Added custom ListenConfig support for server"],
+			"url": "github.com/go-goyave/goyave/pull/280",
+			"hide": false
+		},
+		{
+			"name": "TLDR - Collaborative cheatsheets for console commands",
+			"details": ["Added crush commands and details."],
+			"url": "github.com/tldr-pages/tldr/pull/18326",
+			"hide": false
+		},
+		{
+			"name": "Rust Analyzer - A Rust compiler front-end for IDEs",
+			"details": ["Fixed broken links in documentation."],
+			"url": "github.com/rust-lang/rust-analyzer/pull/20784",
+			"hide": false
+		},
+		{
+			"name": "Pruna - Model Optimization Framework",
+			"details": ["Migrated type checker from mypy to ty."],
+			"url": "github.com/PrunaAI/pruna/pull/360",
 			"hide": false
 		}
 	],
