@@ -49,26 +49,6 @@
 			],
 			"url": "valentine-roses.vercel.app",
 			"hide": false
-		},
-		{
-			"name": "Hexagonal Go - E-Commerce API Services.",
-			"details": [
-				"Simple RESTful API for E-Commerce.",
-				"Implemented a clean architecture using the Hexagonal Architecture pattern.",
-				"Tech Stack: Go, Fiber, PostgreSQL, Docker."
-			],
-			"url": "github.com/Supakornn/hexagonal-go",
-			"hide": false
-		},
-		{
-			"name": "MMORPG Shop - Game's items shop services.",
-			"details": [
-				"Microservice design of game's items shop services.",
-				"Implemented Clean Architecture and applied Domain-Driven Design.",
-				"Tech Stack: Go, Echo, MongoDB, Docker, gRPC, Kafka."
-			],
-			"url": "github.com/Supakornn/mmorpg-shop",
-			"hide": false
 		}
 	],
 	"contributions": [
@@ -83,55 +63,73 @@
 		},
 		{
 			"name": "(Staff) The Stupid Hackathon Thailand X KMUTT",
-			"details": ["Developed a Challenge for solving the problem to earn the ticket."],
+			"details": [
+				"Developed a Challenge for solving the problem to earn the ticket."
+			],
 			"url": "shit.8.125.stupid.hackathon.in.th/",
 			"hide": false
 		},
 		{
 			"name": "Lynx - Cross-Platform UI framework",
-			"details": ["Improved the .gitignore to exclude auto generated files."],
+			"details": [
+				"Improved the .gitignore to exclude auto generated files."
+			],
 			"url": "github.com/lynx-family/lynx/pull/230",
 			"hide": false
 		},
 		{
 			"name": "RustScan - The Modern Port Scanner",
-			"details": ["Added funny quotes for printing in CLI while running."],
+			"details": [
+				"Added funny quotes for printing in CLI while running."
+			],
 			"url": "github.com/bee-san/RustScan/pull/759",
 			"hide": false
 		},
 		{
 			"name": "Axios - HTTP Client for JavaScript",
-			"details": ["Fixed broken links in documentation."],
+			"details": [
+				"Fixed broken links in documentation."
+			],
 			"url": "github.com/axios/axios/pull/7065",
 			"hide": false
 		},
 		{
 			"name": "DrawDB - Database diagram editor",
-			"details": ["Improved documentation for better readability"],
+			"details": [
+				"Improved documentation for better readability"
+			],
 			"url": "github.com/drawdb-io/drawdb/pull/595",
 			"hide": false
 		},
 		{
 			"name": "Goyave - Golang REST API framework",
-			"details": ["Added custom ListenConfig support for server"],
+			"details": [
+				"Added custom ListenConfig support for server"
+			],
 			"url": "github.com/go-goyave/goyave/pull/280",
 			"hide": false
 		},
 		{
 			"name": "TLDR - Collaborative cheatsheets for console commands",
-			"details": ["Added crush commands and details."],
+			"details": [
+				"Added crush commands and details."
+			],
 			"url": "github.com/tldr-pages/tldr/pull/18326",
 			"hide": false
 		},
 		{
 			"name": "Rust Analyzer - A Rust compiler front-end for IDEs",
-			"details": ["Fixed broken links in documentation."],
+			"details": [
+				"Fixed broken links in documentation."
+			],
 			"url": "github.com/rust-lang/rust-analyzer/pull/20784",
 			"hide": false
 		},
 		{
 			"name": "Pruna - Model Optimization Framework",
-			"details": ["Migrated type checker from mypy to ty."],
+			"details": [
+				"Migrated type checker from mypy to ty."
+			],
 			"url": "github.com/PrunaAI/pruna/pull/360",
 			"hide": false
 		}
@@ -159,7 +157,10 @@
 			"position": "Full Stack Developer (Part-Time)",
 			"company": "SnimTech",
 			"url": "https://www.facebook.com/snimtech?locale=th_TH",
-			"years": ["2024", "2025"],
+			"years": [
+				"2024",
+				"2025"
+			],
 			"details": [
 				"Founded and lead a freelance development team under the SnimTech",
 				"Delivering custom software solutions to client requirements across a wide range of technologies."
@@ -169,8 +170,13 @@
 			"position": "Freelance Developer (Part-Time)",
 			"company": "Freelance",
 			"url": "",
-			"years": ["2022", "2024"],
-			"details": ["Developed a full-stack web application for a client for their online business."]
+			"years": [
+				"2022",
+				"2024"
+			],
+			"details": [
+				"Developed a full-stack web application for a client for their online business."
+			]
 		}
 	],
 	"educations": [
