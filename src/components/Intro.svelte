@@ -4,7 +4,6 @@
 	export let phone: string = '';
 	export let email: string = '';
 	export let github: string = '';
-	export let linkedin: string = '';
 	export let location: string = '';
 	export let website: string = '';
 </script>
@@ -32,14 +31,43 @@
 		<p>
 			<a href={`https://${website}`} target="_blank" rel="noreferrer">{website}</a>
 		</p>
-		<p>
-			<a href={`https://linkedin.com/in/${linkedin}`} target="_blank" rel="noreferrer">Linkedin</a>
-		</p>
+		<!-- <p>
+			<a href={`https://linkedin.com/in/${linkedin}`} target="_blank" rel="noreferrer"
+				>linkedin.com/in/{linkedin}</a
+			>
+		</p> -->
 	</div>
 </div>
 
 <style lang="postcss">
 	a {
 		text-decoration: underline;
+	}
+
+	@media print {
+		div {
+			font-size: 8pt !important;
+			padding: 0 !important;
+			margin-bottom: 0.2rem !important;
+		}
+
+		div p {
+			margin: 0 !important;
+			line-height: 1.2;
+		}
+
+		h2 {
+			font-size: 16pt !important;
+			padding: 0 !important;
+			margin: 0 !important;
+			line-height: 1.1 !important;
+		}
+
+		h2 span {
+			font-size: 9pt !important;
+			margin-top: 0 !important;
+			display: inline-block;
+			margin-left: 0.2rem;
+		}
 	}
 </style>

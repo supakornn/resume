@@ -10,6 +10,7 @@
 	$: dataLink = `${sourceLink}/blob/main/static/data/profile.json`;
 	$: ({
 		intro = {} as IProfileResp['intro'],
+		summary = '',
 		projects = [],
 		contributions = [],
 		// technologies = [],
@@ -43,6 +44,16 @@
 
 <main class="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
 	<Intro {...intro} />
+
+	{#if summary}
+		<section>
+			<Hideable>
+				<h2 class="text-2xl print:text-4xl uppercase text-left">Summary</h2>
+				<hr />
+				<p class="text-left">{summary}</p>
+			</Hideable>
+		</section>
+	{/if}
 
 	<!-- <section>
 		<Hideable>
@@ -91,7 +102,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Contributions</h2>
+			<h2 class="uppercase text-left">Contributions</h2>
 			<hr />
 
 			{#each contributions as contribution}
@@ -99,8 +110,8 @@
 					<div class="text-left">
 						<div class="flex justify-between mb-2">
 							<strong>{contribution.name}</strong>
-							<a href="https://{contribution.url}" target="_blank" rel="noreferrer"
-								><strong>{contribution.url}</strong></a
+							<a href="https://{contribution.url}" target="_blank" rel="noreferrer" class="text-sm"
+								>{contribution.url}</a
 							>
 						</div>
 						<ul class="text-left list-disc pl-8">
@@ -116,7 +127,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
+			<h2 class="uppercase text-left">Projects</h2>
 			<hr />
 
 			{#each projects as project}
@@ -124,8 +135,8 @@
 					<div class="text-left">
 						<div class="flex justify-between mb-2">
 							<strong>{project.name}</strong>
-							<a href="https://{project.url}" target="_blank" rel="noreferrer"
-								><strong>{project.url}</strong></a
+							<a href="https://{project.url}" target="_blank" rel="noreferrer" class="text-sm"
+								>{project.url}</a
 							>
 						</div>
 						<ul class="text-left list-disc pl-8">
@@ -155,11 +166,6 @@
 			</ul>
 		</Hideable>
 	</section>
-
-	<footer class="print-only">
-		(See <a href={fullVersionLink} target="_blank" rel="noopener">full version</a>
-		or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
-	</footer>
 </main>
 
 <style lang="postcss">
@@ -190,7 +196,20 @@
 
 	@media print {
 		* {
-			@apply text-xs;
+			font-size: 9pt !important;
+			line-height: 1.3;
+		}
+
+		a {
+			text-decoration: underline !important;
+		}
+
+		strong {
+			font-size: 9pt !important;
+		}
+
+		section h2 {
+			font-size: 11pt !important;
 		}
 
 		:global(.print-only) {
@@ -202,20 +221,32 @@
 		}
 
 		ul {
-			@apply pl-6;
+			padding-left: 1.2rem;
+			margin-top: 0.1rem;
+			margin-bottom: 0.2rem;
+		}
+
+		li {
+			margin-bottom: 0.1rem;
 		}
 
 		section {
-			@apply my-2;
+			margin-top: 0.2rem;
+			margin-bottom: 0.2rem;
+		}
+
+		section:first-of-type {
+			margin-top: 0.1rem;
 		}
 
 		section hr {
-			@apply mt-0 mb-1;
+			margin-top: 0.05rem;
+			margin-bottom: 0.1rem;
 		}
 
 		main {
-			margin: 0 0;
-			padding: 0;
+			margin: 0;
+			padding: 0.3rem 0.5rem;
 		}
 	}
 </style>
