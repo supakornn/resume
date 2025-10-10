@@ -9,12 +9,13 @@
 		"location": "Bangkok, Thailand",
 		"website": "supakorn.info"
 	},
-	"summary": "Full-Stack Software Engineer with strong focus on backend development and systems programming. Experienced with JavaScript, TypeScript, Python, Go, and Rust. Passionate about building scalable software solutions. Interested in cybersecurity, machine learning, and system design principles.",
+	"summary": "Information Technology student specializing in full-stack development and systems programming. Achieved Top 0.5% ranking (388/70,000+ participants) in coding challenges. Published open-source tools in JavaScript, Go, and Rust with active contributions to open-source community.",
 	"projects": [
 		{
 			"name": "Goscanner - Port scanner written in Go.",
 			"details": [
-				"Engineered concurrent port scanning tool using Go goroutines for fast network reconnaissance and vulnerability detection",
+				"Developed concurrent port scanning tool leveraging Go goroutines for efficient parallel processing across full port range",
+				"Implemented TCP/UDP protocol detection for network reconnaissance and vulnerability assessment",
 				"Tech Stack: Go, Cobra."
 			],
 			"url": "github.com/Supakornn/goscanner",
@@ -23,7 +24,8 @@
 		{
 			"name": "ZigBrute - High-Performance Password Cracking Tool for Security Research",
 			"details": [
-				"Built password cracking tool in Zig with multiple bruteforce algorithms for ethical hacking and security research",
+				"Built password cracking tool in Zig with optimized bruteforce algorithms for ethical hacking research",
+				"Implemented multiple cracking modes including dictionary, hybrid, and mask attacks for penetration testing workflows",
 				"Tech Stack: Zig."
 			],
 			"url": "github.com/Supakornn/zigbrute",
@@ -32,7 +34,8 @@
 		{
 			"name": "MyIP - Terminal-Based Network Interface Monitor",
 			"details": [
-				"Built cross-platform TUI application in Rust for IP monitoring, published to crates.io package registry",
+				"Built cross-platform TUI application in Rust supporting Windows, macOS, and Linux for real-time IP monitoring",
+				"Published to crates.io package registry with 3,494+ downloads demonstrating community adoption",
 				"Tech Stack: Rust, Ratatui."
 			],
 			"url": "crates.io/crates/myip-tui",
@@ -41,7 +44,8 @@
 		{
 			"name": "MNIST Neural Network - Machine Learning from Scratch in Rust",
 			"details": [
-				"Built 3-layer neural network from scratch in Rust achieving 97.5% accuracy on handwritten digit recognition",
+				"Implemented 3-layer neural network from scratch in Rust achieving 97.5% accuracy on handwritten digit recognition",
+				"Developed backpropagation algorithm with custom gradient descent optimization for efficient model training",
 				"Tech Stack: Rust."
 			],
 			"url": "github.com/Supakornn/mnist_rust",
@@ -50,7 +54,8 @@
 		{
 			"name": "Codingtype - Typing Speed Test Platform for Developers",
 			"details": [
-				"Built typing speed test web app with real-time WPM tracking for multiple programming languages",
+				"Built typing speed test web application supporting multiple programming languages with real-time WPM calculation",
+				"Implemented responsive UI with modern web technologies deployed on Vercel CDN for global accessibility",
 				"Tech Stack: Svelte.js, TailwindCSS."
 			],
 			"url": "codingtype.vercel.app",
@@ -61,8 +66,8 @@
 		{
 			"name": "Thai Bad Words - NPM Library for Thai Content Moderation (Co-Contributor)",
 			"details": [
-				"Refactored data structures and search algorithms, improving performance for real-time content filtering",
-				"Implemented comprehensive unit testing suite using Jest to ensure reliability and code quality"
+				"Refactored data structures and optimized search algorithms for improved content filtering performance",
+				"Implemented comprehensive unit testing suite using Jest to ensure code reliability and maintainability"
 			],
 			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
 			"hide": false
@@ -70,7 +75,8 @@
 		{
 			"name": "The Stupid Hackathon Thailand X KMUTT (Technical Staff)",
 			"details": [
-				"Developed coding challenges and technical puzzles for participants to solve for event ticket access"
+				"Developed coding challenges and technical puzzles for participants to solve for event ticket access",
+				"Collaborated with technical team to coordinate event logistics and infrastructure setup"
 			],
 			"url": "shit.8.125.stupid.hackathon.in.th/",
 			"hide": false
@@ -78,23 +84,23 @@
 		{
 			"name": "Axios - HTTP Client Library",
 			"details": [
-				"Contributed to documentation quality by fixing broken links and improving developer experience"
+				"Contributed to documentation quality by fixing broken links and improving overall developer experience"
 			],
 			"url": "github.com/axios/axios/pull/7065",
-			"hide": false
+			"hide": false 
 		},
 		{
 			"name": "Rust Analyzer - Official Rust IDE Compiler Front-end",
 			"details": [
-				"Enhanced documentation accuracy by identifying and fixing broken reference links"
+				"Enhanced documentation accuracy by identifying and fixing broken reference links in official Rust toolchain"
 			],
 			"url": "github.com/rust-lang/rust-analyzer/pull/20784",
-			"hide": false
+			"hide": false 
 		},
 		{
 			"name": "RustScan - Modern High-Speed Port Scanner",
 			"details": [
-				"Enhanced user experience by adding dynamic CLI quotes for better engagement during scan operations"
+				"Contributed additional humorous quotes to CLI output for improved user engagement"
 			],
 			"url": "github.com/bee-san/RustScan/pull/759",
 			"hide": false
@@ -102,7 +108,7 @@
 		{
 			"name": "Goyave - Go REST API Framework",
 			"details": [
-				"Implemented custom ListenConfig support, enabling advanced server configuration options for developers"
+				"Implemented custom ListenConfig support, enabling advanced server configuration options for framework users"
 			],
 			"url": "github.com/go-goyave/goyave/pull/280",
 			"hide": false
@@ -110,10 +116,10 @@
 		{
 			"name": "DrawDB - Database Schema Design Tool",
 			"details": [
-				"Improved documentation structure and readability, reducing onboarding time for new contributors"
+				"Improved documentation structure and readability to enhance onboarding experience for new contributors"
 			],
 			"url": "github.com/drawdb-io/drawdb/pull/595",
-			"hide": false
+			"hide": false 
 		},
 		{
 			"name": "Lynx - Cross-Platform UI Framework",
@@ -121,20 +127,20 @@
 				"Optimized repository configuration by updating .gitignore to exclude auto-generated build artifacts"
 			],
 			"url": "github.com/lynx-family/lynx/pull/230",
-			"hide": false
+			"hide": false 
 		},
 		{
 			"name": "TLDR Pages - Community-Driven Command Cheatsheets",
 			"details": [
-				"Contributed new command documentation (crush) to help developers quickly learn terminal commands"
+				"Contributed new command documentation (crush) to help developers quickly reference terminal commands"
 			],
 			"url": "github.com/tldr-pages/tldr/pull/18326",
-			"hide": false
+			"hide": false 
 		},
 		{
 			"name": "Pruna - AI Model Optimization Framework",
 			"details": [
-				"Migrated type checking system from mypy to ty, improving code quality and type safety"
+				"Migrated type checking system from mypy to ty, improving code quality and type safety across codebase"
 			],
 			"url": "github.com/PrunaAI/pruna/pull/360",
 			"hide": false
@@ -176,8 +182,9 @@
 				"2024"
 			],
 			"details": [
-				"Developed full-stack web applications using React.js, Next.js, Nest.js, and cloud platforms (AWS, Firebase, Vercel)",
-				"Integrated RESTful APIs, authentication systems, Payment Gateways(Stripe), and CI/CD pipelines for automated deployment"
+				"Developed full-stack web applications using React.js, Next.js, and Nest.js deployed across AWS, Firebase, and Vercel",
+				"Integrated RESTful APIs, OAuth authentication systems, and payment gateway solutions (Stripe) for client projects",
+				"Implemented CI/CD pipelines using GitHub Actions for automated testing and deployment workflows"
 			]
 		}
 	],
@@ -189,11 +196,27 @@
 	],
 	"achievements": [
 		{
+			"title": "Kaggle Advanced SQL Certification | Advanced SQL Techniques & Query Optimization",
+			"link": "https://www.kaggle.com/learn/certification/supakornieamgomol/advanced-sql"
+		},
+		{
+			"title": "Kaggle Geospatial Analysis Certification | Geographic Data Science & Spatial Analytics",
+			"link": "https://www.kaggle.com/learn/certification/supakornieamgomol/geospatial-analysis"
+		},
+		{
+			"title": "Kaggle Data Cleaning Certification | Data Preprocessing & Quality Assurance",
+			"link": "https://www.kaggle.com/learn/certification/supakornieamgomol/data-cleaning"
+		},
+		{
+			"title": "Kaggle Intermediate Machine Learning Certification | Advanced ML Techniques & Model Optimization",
+			"link": "https://www.kaggle.com/learn/certification/supakornieamgomol/intermediate-machine-learning"
+		},
+		{
 			"title": "HackTheBox Academy - Penetration Tester Job Role Path Certification | Cybersecurity & Ethical Hacking",
 			"link": "https://academy.hackthebox.com/achievement/1467577/path/16"
 		},
 		{
-			"title": "Devlab Programming Competition - Top 0.5% (Rank 388/70,000+ Participants) | Competitive Programming",
+			"title": "Devlab Programming Challenge - Top 0.5% (Rank 388/70,000+ Participants) | Problem Solving & Algorithms",
 			"link": "https://www.borntodev.com/devlab/certificate/b244cfccd28c9855b0c60b6f37982eef"
 		},
 		{
