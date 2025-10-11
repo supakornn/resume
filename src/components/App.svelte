@@ -102,7 +102,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="uppercase text-left">Contributions</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Contributions</h2>
 			<hr />
 
 			{#each contributions as contribution}
@@ -127,7 +127,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="uppercase text-left">Projects</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
 			<hr />
 
 			{#each projects as project}
@@ -188,6 +188,8 @@
 	section hr {
 		@apply mt-0 mb-2;
 		border-color: darkgrey;
+		print-color-adjust: exact;
+		-webkit-print-color-adjust: exact;
 	}
 
 	:global(.print-only) {
@@ -242,6 +244,9 @@
 		section hr {
 			margin-top: 0.05rem;
 			margin-bottom: 0.1rem;
+			border: 1px solid darkgrey !important;
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
 		}
 
 		main {

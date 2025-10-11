@@ -9,8 +9,18 @@
 		"location": "Bangkok, Thailand",
 		"website": "supakorn.info"
 	},
-	"summary": "Information Technology student specializing in full-stack development and systems programming. Achieved Top 0.5% ranking (388/70,000+ participants) in coding challenges. Published open-source tools in JavaScript, Go, and Rust with active contributions to open-source community.",
 	"projects": [
+		{
+			"name": "MMORPG Shop - Microservices-Based Game Item Shop System",
+			"details": [
+				"Designed 5-service microservices system (Auth, Player, Item, Inventory, Payment) with DDD and Clean Architecture",
+				"Implemented Kafka event-driven architecture with exactly-once processing and compensating transactions",
+				"Built gRPC services with JWT authentication and RBAC for secure inter-service communication",
+				"Tech Stack: Go, MongoDB, Apache Kafka, gRPC, Docker."
+			],
+			"url": "github.com/Supakornn/mmorpg-shop",
+			"hide": false
+		},
 		{
 			"name": "Goscanner - Port scanner written in Go.",
 			"details": [
