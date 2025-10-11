@@ -102,7 +102,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Contributions</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Open Source Contributions</h2>
 			<hr />
 
 			{#each contributions as contribution}

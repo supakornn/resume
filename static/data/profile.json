@@ -10,6 +10,7 @@
 		"website": "supakorn.info"
 	},
 	"projects": [
+        
 		{
 			"name": "MMORPG Shop - Microservices-Based Game Item Shop System",
 			"details": [
@@ -19,6 +20,15 @@
 				"Tech Stack: Go, MongoDB, Apache Kafka, gRPC, Docker."
 			],
 			"url": "github.com/Supakornn/mmorpg-shop",
+			"hide": false
+		},
+        {
+			"name": "Thai Bad Words - NPM Library for Thai Content Moderation (Co-Contributor)",
+			"details": [
+				"Refactored data structures and optimized search algorithms for improved content filtering performance",
+				"Implemented comprehensive unit testing suite using Jest to ensure code reliability and maintainability"
+			],
+			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
 			"hide": false
 		},
 		{
@@ -73,24 +83,6 @@
 		}
 	],
 	"contributions": [
-		{
-			"name": "Thai Bad Words - NPM Library for Thai Content Moderation (Co-Contributor)",
-			"details": [
-				"Refactored data structures and optimized search algorithms for improved content filtering performance",
-				"Implemented comprehensive unit testing suite using Jest to ensure code reliability and maintainability"
-			],
-			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
-			"hide": false
-		},
-		{
-			"name": "The Stupid Hackathon Thailand X KMUTT (Technical Staff)",
-			"details": [
-				"Developed coding challenges and technical puzzles for participants to solve for event ticket access",
-				"Collaborated with technical team to coordinate event logistics and infrastructure setup"
-			],
-			"url": "shit.8.125.stupid.hackathon.in.th/",
-			"hide": false
-		},
 		{
 			"name": "Axios - HTTP Client Library",
 			"details": [
