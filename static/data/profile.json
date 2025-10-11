@@ -10,35 +10,45 @@
 		"website": "supakorn.info"
 	},
 	"projects": [
-        
 		{
 			"name": "MMORPG Shop - Microservices-Based Game Item Shop System",
 			"details": [
 				"Designed 5-service microservices system (Auth, Player, Item, Inventory, Payment) with DDD and Clean Architecture",
 				"Implemented Kafka event-driven architecture with exactly-once processing and compensating transactions",
 				"Built gRPC services with JWT authentication and RBAC for secure inter-service communication",
-				"Tech Stack: Go, MongoDB, Apache Kafka, gRPC, Docker."
+				"Tech Stack: Go, MongoDB, Apache Kafka, gRPC, Docker"
 			],
 			"url": "github.com/Supakornn/mmorpg-shop",
+			"hide": false
+		},
+        {
+			"name": "NanoRust - Terminal-Based Text Editor Written in Rust",
+			"details": [
+				"Built terminal text editor in Rust inspired by GNU nano with syntax highlighting and core editing features",
+				"Published to crates.io with cross-platform support for Linux, macOS, BSD, and Windows Terminal",
+				"Tech Stack: Rust"
+			],
+			"url": "github.com/Supakornn/nanorust",
+			"hide": false
+		},
+        {
+			"name": "Goscanner - Port scanner written in Go.",
+			"details": [
+				"Developed concurrent port scanning tool leveraging Go goroutines for efficient parallel processing across full port range",
+				"Implemented TCP/UDP protocol detection for network reconnaissance and vulnerability assessment",
+				"Tech Stack: Go, Cobra"
+			],
+			"url": "github.com/Supakornn/goscanner",
 			"hide": false
 		},
         {
 			"name": "Thai Bad Words - NPM Library for Thai Content Moderation (Co-Contributor)",
 			"details": [
 				"Refactored data structures and optimized search algorithms for improved content filtering performance",
-				"Implemented comprehensive unit testing suite using Jest to ensure code reliability and maintainability"
+				"Implemented comprehensive unit testing suite using Jest to ensure code reliability and maintainability",
+                "Tech Stack: TypeScript, Jest"
 			],
 			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
-			"hide": false
-		},
-		{
-			"name": "Goscanner - Port scanner written in Go.",
-			"details": [
-				"Developed concurrent port scanning tool leveraging Go goroutines for efficient parallel processing across full port range",
-				"Implemented TCP/UDP protocol detection for network reconnaissance and vulnerability assessment",
-				"Tech Stack: Go, Cobra."
-			],
-			"url": "github.com/Supakornn/goscanner",
 			"hide": false
 		},
 		{
@@ -46,7 +56,7 @@
 			"details": [
 				"Built password cracking tool in Zig with optimized bruteforce algorithms for ethical hacking research",
 				"Implemented multiple cracking modes including dictionary, hybrid, and mask attacks for penetration testing workflows",
-				"Tech Stack: Zig."
+				"Tech Stack: Zig"
 			],
 			"url": "github.com/Supakornn/zigbrute",
 			"hide": false
@@ -56,7 +66,7 @@
 			"details": [
 				"Built cross-platform TUI application in Rust supporting Windows, macOS, and Linux for real-time IP monitoring",
 				"Published to crates.io package registry with 3,494+ downloads demonstrating community adoption",
-				"Tech Stack: Rust, Ratatui."
+				"Tech Stack: Rust, Ratatui"
 			],
 			"url": "crates.io/crates/myip-tui",
 			"hide": false
@@ -66,7 +76,7 @@
 			"details": [
 				"Implemented 3-layer neural network from scratch in Rust achieving 97.5% accuracy on handwritten digit recognition",
 				"Developed backpropagation algorithm with custom gradient descent optimization for efficient model training",
-				"Tech Stack: Rust."
+				"Tech Stack: Rust"
 			],
 			"url": "github.com/Supakornn/mnist_rust",
 			"hide": false
@@ -76,7 +86,7 @@
 			"details": [
 				"Built typing speed test web application supporting multiple programming languages with real-time WPM calculation",
 				"Implemented responsive UI with modern web technologies deployed on Vercel CDN for global accessibility",
-				"Tech Stack: Svelte.js, TailwindCSS."
+				"Tech Stack: Svelte.js, TailwindCSS"
 			],
 			"url": "codingtype.vercel.app",
 			"hide": false
