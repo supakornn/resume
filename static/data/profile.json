@@ -21,7 +21,7 @@
 			"url": "github.com/Supakornn/mmorpg-shop",
 			"hide": false
 		},
-        {
+		{
 			"name": "NanoRust - Terminal-Based Text Editor Written in Rust",
 			"details": [
 				"Built terminal text editor in Rust inspired by GNU nano with syntax highlighting and core editing features",
@@ -31,8 +31,8 @@
 			"url": "github.com/Supakornn/nanorust",
 			"hide": false
 		},
-        {
-			"name": "Goscanner - Port scanner written in Go.",
+		{
+			"name": "Goscanner - Port scanner written in Go",
 			"details": [
 				"Developed concurrent port scanning tool leveraging Go goroutines for efficient parallel processing across full port range",
 				"Implemented TCP/UDP protocol detection for network reconnaissance and vulnerability assessment",
@@ -41,12 +41,12 @@
 			"url": "github.com/Supakornn/goscanner",
 			"hide": false
 		},
-        {
+		{
 			"name": "Thai Bad Words - NPM Library for Thai Content Moderation (Co-Contributor)",
 			"details": [
 				"Refactored data structures and optimized search algorithms for improved content filtering performance",
 				"Implemented comprehensive unit testing suite using Jest to ensure code reliability and maintainability",
-                "Tech Stack: TypeScript, Jest"
+				"Tech Stack: TypeScript, Jest"
 			],
 			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
 			"hide": false
@@ -99,7 +99,7 @@
 				"Contributed to documentation quality by fixing broken links and improving overall developer experience"
 			],
 			"url": "github.com/axios/axios/pull/7065",
-			"hide": false 
+			"hide": false
 		},
 		{
 			"name": "Rust Analyzer - Official Rust IDE Compiler Front-end",
@@ -107,7 +107,7 @@
 				"Enhanced documentation accuracy by identifying and fixing broken reference links in official Rust toolchain"
 			],
 			"url": "github.com/rust-lang/rust-analyzer/pull/20784",
-			"hide": false 
+			"hide": false
 		},
 		{
 			"name": "RustScan - Modern High-Speed Port Scanner",
@@ -131,7 +131,7 @@
 				"Improved documentation structure and readability to enhance onboarding experience for new contributors"
 			],
 			"url": "github.com/drawdb-io/drawdb/pull/595",
-			"hide": false 
+			"hide": false
 		},
 		{
 			"name": "Lynx - Cross-Platform UI Framework",
@@ -139,7 +139,7 @@
 				"Optimized repository configuration by updating .gitignore to exclude auto-generated build artifacts"
 			],
 			"url": "github.com/lynx-family/lynx/pull/230",
-			"hide": false 
+			"hide": false
 		},
 		{
 			"name": "TLDR Pages - Community-Driven Command Cheatsheets",
@@ -147,7 +147,7 @@
 				"Contributed new command documentation (crush) to help developers quickly reference terminal commands"
 			],
 			"url": "github.com/tldr-pages/tldr/pull/18326",
-			"hide": false 
+			"hide": false
 		},
 		{
 			"name": "Pruna - AI Model Optimization Framework",
