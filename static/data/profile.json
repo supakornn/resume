@@ -52,7 +52,7 @@
 			"hide": false
 		},
 		{
-			"name": "ZigBrute - High-Performance Password Cracking Tool for Security Research",
+			"name": "ZigBrute - Password Cracking Tool",
 			"details": [
 				"Built password cracking tool in Zig with optimized bruteforce algorithms for ethical hacking research",
 				"Implemented multiple cracking modes including dictionary, hybrid, and mask attacks for penetration testing workflows",
