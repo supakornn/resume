@@ -94,51 +94,11 @@
 	],
 	"contributions": [
 		{
-			"name": "Axios - HTTP Client Library",
-			"details": [
-				"Contributed to documentation quality by fixing broken links and improving overall developer experience"
-			],
-			"url": "github.com/axios/axios/pull/7065",
-			"hide": false
-		},
-		{
-			"name": "Rust Analyzer - Official Rust IDE Compiler Front-end",
-			"details": [
-				"Enhanced documentation accuracy by identifying and fixing broken reference links in official Rust toolchain"
-			],
-			"url": "github.com/rust-lang/rust-analyzer/pull/20784",
-			"hide": false
-		},
-		{
-			"name": "RustScan - Modern High-Speed Port Scanner",
-			"details": [
-				"Contributed additional humorous quotes to CLI output for improved user engagement"
-			],
-			"url": "github.com/bee-san/RustScan/pull/759",
-			"hide": false
-		},
-		{
 			"name": "Goyave - Go REST API Framework",
 			"details": [
 				"Implemented custom ListenConfig support, enabling advanced server configuration options for framework users"
 			],
 			"url": "github.com/go-goyave/goyave/pull/280",
-			"hide": false
-		},
-		{
-			"name": "DrawDB - Database Schema Design Tool",
-			"details": [
-				"Improved documentation structure and readability to enhance onboarding experience for new contributors"
-			],
-			"url": "github.com/drawdb-io/drawdb/pull/595",
-			"hide": false
-		},
-		{
-			"name": "Lynx - Cross-Platform UI Framework",
-			"details": [
-				"Optimized repository configuration by updating .gitignore to exclude auto-generated build artifacts"
-			],
-			"url": "github.com/lynx-family/lynx/pull/230",
 			"hide": false
 		},
 		{
@@ -189,10 +149,7 @@
 			"position": "Freelance Developer (Part-Time)",
 			"company": "Freelance",
 			"url": "",
-			"years": [
-				"2022",
-				"2024"
-			],
+			"years": ["2022", "2024"],
 			"details": [
 				"Developed full-stack web applications using React.js, Next.js, and Nest.js deployed across AWS, Firebase, and Vercel",
 				"Integrated RESTful APIs, OAuth authentication systems, and payment gateway solutions (Stripe) for client projects",
