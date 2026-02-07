@@ -1,201 +1,201 @@
 {
-  "intro": {
-    "name": "Supakorn Ieamgomol",
-    "nickname": "Gap",
-    "phone": "",
-    "email": "mail@supakorn.info",
-    "github": "Supakornn",
-    "linkedin": "",
-    "location": "Bangkok, Thailand",
-    "website": "supakorn.info"
-  },
-  "projects": [
-    {
-      "name": "MMORPG Shop - Microservices-Based Game Item Shop System",
-      "details": [
-        "Designed 5-service microservices system (Auth, Player, Item, Inventory, Payment) with DDD and Clean Architecture",
-        "Implemented Kafka event-driven architecture with exactly-once processing and compensating transactions",
-        "Built gRPC services with JWT authentication and RBAC for secure inter-service communication",
-        "Tech Stack: Go, MongoDB, Apache Kafka, gRPC, Docker"
-      ],
-      "url": "github.com/Supakornn/mmorpg-shop",
-      "hide": false
-    },
-    {
-      "name": "NanoRust - Terminal-Based Text Editor Written in Rust",
-      "details": [
-        "Built terminal text editor in Rust inspired by GNU nano with syntax highlighting and core editing features",
-        "Published to crates.io with cross-platform support for Linux, macOS, BSD, and Windows Terminal",
-        "Tech Stack: Rust"
-      ],
-      "url": "github.com/Supakornn/nanorust",
-      "hide": false
-    },
-    {
-      "name": "Goscanner - Port scanner written in Go",
-      "details": [
-        "Developed concurrent port scanning tool leveraging Go goroutines for efficient parallel processing across full port range",
-        "Implemented TCP/UDP protocol detection for network reconnaissance and vulnerability assessment",
-        "Tech Stack: Go, Cobra"
-      ],
-      "url": "github.com/Supakornn/goscanner",
-      "hide": false
-    },
-    {
-      "name": "Thai Bad Words - NPM Library for Thai Content Moderation (Co-Contributor)",
-      "details": [
-        "Refactored data structures and optimized search algorithms for improved content filtering performance",
-        "Implemented comprehensive unit testing suite using Jest to ensure code reliability and maintainability",
-        "Tech Stack: TypeScript, Jest"
-      ],
-      "url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
-      "hide": false
-    },
-    {
-      "name": "MyIP - Terminal-Based Network Interface Monitor",
-      "details": [
-        "Built cross-platform TUI application in Rust supporting Windows, macOS, and Linux for real-time IP monitoring",
-        "Published to crates.io package registry with 3,494+ downloads demonstrating community adoption",
-        "Tech Stack: Rust, Ratatui"
-      ],
-      "url": "crates.io/crates/myip-tui",
-      "hide": false
-    },
-    {
-      "name": "MNIST Neural Network - Machine Learning from Scratch in Rust",
-      "details": [
-        "Implemented 3-layer neural network from scratch in Rust achieving 97.5% accuracy on handwritten digit recognition",
-        "Developed backpropagation algorithm with custom gradient descent optimization for efficient model training",
-        "Tech Stack: Rust"
-      ],
-      "url": "github.com/Supakornn/mnist_rust",
-      "hide": false
-    },
-    {
-      "name": "Codingtype - Typing Speed Test Platform for Developers",
-      "details": [
-        "Built typing speed test web application supporting multiple programming languages with real-time WPM calculation",
-        "Implemented responsive UI with modern web technologies deployed on Vercel CDN for global accessibility",
-        "Tech Stack: Svelte.js, TailwindCSS"
-      ],
-      "url": "codingtype.vercel.app",
-      "hide": false
-    }
-  ],
-  "contributions": [
-    {
-      "name": "Goyave - Go REST API Framework",
-      "details": [
-        "Implemented custom ListenConfig support, enabling advanced server configuration options for framework users"
-      ],
-      "url": "github.com/go-goyave/goyave/pull/280",
-      "hide": false
-    },
-    {
-      "name": "TLDR Pages - Community-Driven Command Cheatsheets",
-      "details": [
-        "Contributed new command documentation (crush) to help developers quickly reference terminal commands"
-      ],
-      "url": "github.com/tldr-pages/tldr/pull/18326",
-      "hide": false
-    },
-    {
-      "name": "Pruna - AI Model Optimization Framework",
-      "details": [
-        "Migrated type checking system from mypy to ty, improving code quality and type safety across codebase"
-      ],
-      "url": "github.com/PrunaAI/pruna/pull/360",
-      "hide": false
-    }
-  ],
-  "technologies": [
-    {
-      "section": "Languages:",
-      "details": "JavaScript, TypeScript, Python, GO, Rust, Zig, SQL"
-    },
-    {
-      "section": "Frameworks:",
-      "details": "ReactJS, NextJS, NestJS, SvelteJS, AstroJs, Fiber, Echo, TailwindCSS, Bootstrap, React Native"
-    },
-    {
-      "section": "Tools:",
-      "details": "Git, Docker, Jest, Cypress"
-    },
-    {
-      "section": "Machine Learning & AI:",
-      "details": "Neural Networks, Deep Learning, Backpropagation, Gradient Descent, Model Training, MNIST Dataset"
-    },
-    {
-      "section": "Cybersecurity:",
-      "details": "Penetration Testing, Ethical Hacking, Vulnerability Assessment, Security Research, Network Security, Cryptography"
-    },
-    {
-      "section": "Other:",
-      "details": "AWS, GCP, Firebase, Vercel, Github Actions, CloudFlare"
-    }
-  ],
-  "experiences": [
-    {
-      "position": "Research Assistant",
-      "company": "School of Information Technology, KMUTT",
-      "url": "https://www.sit.kmutt.ac.th/",
-      "years": ["Feb 2026 - April 2026"],
-      "details": ["Work in Progress"]
-    },
-    {
-      "position": "Full Stack Software Engineer Intern",
-      "company": "Agoda, Thailand",
-      "url": "https://www.agoda.com/",
-      "years": ["June 2026 - July 2026"],
-      "details": ["Not started yet"]
-    }
-  ],
-  "educations": [
-    {
-      "head": "B.Sc. Information Technology",
-      "details": "King Mongkut's University of Technology Thonburi, TH. 2024-Present (GPAX 3.81)"
-    }
-  ],
-  "achievements": [
-    {
-      "title": "Hacktoberfest 2025 Supercontributor | First 10,000 people reach the 6PR milestone",
-      "link": "https://www.holopin.io/hacktoberfest2025/userbadge/cmgscau3u00cfkw042fhdq31t"
-    },
-    {
-      "title": "Kaggle Advanced SQL Certification | Advanced SQL Techniques & Query Optimization",
-      "link": "https://www.kaggle.com/learn/certification/supakornieamgomol/advanced-sql"
-    },
-    {
-      "title": "Kaggle Geospatial Analysis Certification | Geographic Data Science & Spatial Analytics",
-      "link": "https://www.kaggle.com/learn/certification/supakornieamgomol/geospatial-analysis"
-    },
-    {
-      "title": "Kaggle Data Cleaning Certification | Data Preprocessing & Quality Assurance",
-      "link": "https://www.kaggle.com/learn/certification/supakornieamgomol/data-cleaning"
-    },
-    {
-      "title": "Kaggle Intermediate Machine Learning Certification | Advanced ML Techniques & Model Optimization",
-      "link": "https://www.kaggle.com/learn/certification/supakornieamgomol/intermediate-machine-learning"
-    },
-    {
-      "title": "HackTheBox Academy - Penetration Tester Job Role Path Certification | Cybersecurity & Ethical Hacking",
-      "link": "https://academy.hackthebox.com/achievement/1467577/path/16"
-    },
-    {
-      "title": "Devlab Programming Challenge - Top 0.5% (Rank 388/70,000+ Participants) | Problem Solving & Algorithms",
-      "link": "https://www.borntodev.com/devlab/certificate/b244cfccd28c9855b0c60b6f37982eef"
-    },
-    {
-      "title": "HackerRank Certified Software Engineer Intern | Technical Assessment & Problem Solving",
-      "link": "https://www.hackerrank.com/certificates/iframe/802010770e14"
-    },
-    {
-      "title": "HackerRank REST API (Intermediate) Certificate | Backend Development & API Design",
-      "link": "https://www.hackerrank.com/certificates/iframe/ebf6fe5b2f66"
-    }
-  ],
-  "resumeUrl": {
-    "sourceLink": "",
-    "fullVersion": ""
-  }
+	"intro": {
+		"name": "Supakorn Ieamgomol",
+		"nickname": "Gap",
+		"phone": "",
+		"email": "mail@supakorn.info",
+		"github": "supakornn",
+		"linkedin": "",
+		"location": "Bangkok, Thailand",
+		"website": "supakorn.info"
+	},
+	"projects": [
+		{
+			"name": "MMORPG Shop - Microservices-Based Game Item Shop System",
+			"details": [
+				"Designed 5-service microservices system (Auth, Player, Item, Inventory, Payment) with DDD and Clean Architecture",
+				"Implemented Kafka event-driven architecture with exactly-once processing and compensating transactions",
+				"Built gRPC services with JWT authentication and RBAC for secure inter-service communication",
+				"Tech Stack: Go, MongoDB, Apache Kafka, gRPC, Docker"
+			],
+			"url": "github.com/supakornn/mmorpg-shop",
+			"hide": false
+		},
+		{
+			"name": "NanoRust - Terminal-Based Text Editor Written in Rust",
+			"details": [
+				"Built terminal text editor in Rust inspired by GNU nano with syntax highlighting and core editing features",
+				"Published to crates.io with cross-platform support for Linux, macOS, BSD, and Windows Terminal",
+				"Tech Stack: Rust"
+			],
+			"url": "github.com/supakornn/nanorust",
+			"hide": false
+		},
+		{
+			"name": "Goscanner - Port scanner written in Go",
+			"details": [
+				"Developed concurrent port scanning tool leveraging Go goroutines for efficient parallel processing across full port range",
+				"Implemented TCP/UDP protocol detection for network reconnaissance and vulnerability assessment",
+				"Tech Stack: Go, Cobra"
+			],
+			"url": "github.com/supakornn/goscanner",
+			"hide": false
+		},
+		{
+			"name": "Thai Bad Words - NPM Library for Thai Content Moderation (Co-Contributor)",
+			"details": [
+				"Refactored data structures and optimized search algorithms for improved content filtering performance",
+				"Implemented comprehensive unit testing suite using Jest to ensure code reliability and maintainability",
+				"Tech Stack: TypeScript, Jest"
+			],
+			"url": "npmjs.com/package/@sit-sandbox/thai-bad-words",
+			"hide": false
+		},
+		{
+			"name": "MyIP - Terminal-Based Network Interface Monitor",
+			"details": [
+				"Built cross-platform TUI application in Rust supporting Windows, macOS, and Linux for real-time IP monitoring",
+				"Published to crates.io package registry with 3,494+ downloads demonstrating community adoption",
+				"Tech Stack: Rust, Ratatui"
+			],
+			"url": "crates.io/crates/myip-tui",
+			"hide": false
+		},
+		{
+			"name": "MNIST Neural Network - Machine Learning from Scratch in Rust",
+			"details": [
+				"Implemented 3-layer neural network from scratch in Rust achieving 97.5% accuracy on handwritten digit recognition",
+				"Developed backpropagation algorithm with custom gradient descent optimization for efficient model training",
+				"Tech Stack: Rust"
+			],
+			"url": "github.com/supakornn/mnist_rust",
+			"hide": false
+		},
+		{
+			"name": "Codingtype - Typing Speed Test Platform for Developers",
+			"details": [
+				"Built typing speed test web application supporting multiple programming languages with real-time WPM calculation",
+				"Implemented responsive UI with modern web technologies deployed on Vercel CDN for global accessibility",
+				"Tech Stack: Svelte.js, TailwindCSS"
+			],
+			"url": "codingtype.vercel.app",
+			"hide": false
+		}
+	],
+	"contributions": [
+		{
+			"name": "Goyave - Go REST API Framework",
+			"details": [
+				"Implemented custom ListenConfig support, enabling advanced server configuration options for framework users"
+			],
+			"url": "github.com/go-goyave/goyave/pull/280",
+			"hide": false
+		},
+		{
+			"name": "TLDR Pages - Community-Driven Command Cheatsheets",
+			"details": [
+				"Contributed new command documentation (crush) to help developers quickly reference terminal commands"
+			],
+			"url": "github.com/tldr-pages/tldr/pull/18326",
+			"hide": false
+		},
+		{
+			"name": "Pruna - AI Model Optimization Framework",
+			"details": [
+				"Migrated type checking system from mypy to ty, improving code quality and type safety across codebase"
+			],
+			"url": "github.com/PrunaAI/pruna/pull/360",
+			"hide": false
+		}
+	],
+	"technologies": [
+		{
+			"section": "Languages:",
+			"details": "JavaScript, TypeScript, Python, GO, Rust, Zig, SQL"
+		},
+		{
+			"section": "Frameworks:",
+			"details": "ReactJS, NextJS, NestJS, SvelteJS, AstroJs, Fiber, Echo, TailwindCSS, Bootstrap, React Native"
+		},
+		{
+			"section": "Tools:",
+			"details": "Git, Docker, Jest, Cypress"
+		},
+		{
+			"section": "Machine Learning & AI:",
+			"details": "Neural Networks, Deep Learning, Backpropagation, Gradient Descent, Model Training, MNIST Dataset"
+		},
+		{
+			"section": "Cybersecurity:",
+			"details": "Penetration Testing, Ethical Hacking, Vulnerability Assessment, Security Research, Network Security, Cryptography"
+		},
+		{
+			"section": "Other:",
+			"details": "AWS, GCP, Firebase, Vercel, Github Actions, CloudFlare"
+		}
+	],
+	"experiences": [
+		{
+			"position": "Research Assistant",
+			"company": "School of Information Technology, KMUTT",
+			"url": "https://www.sit.kmutt.ac.th/",
+			"years": ["Feb 2026 - April 2026"],
+			"details": ["Work in Progress"]
+		},
+		{
+			"position": "Full Stack Software Engineer Intern",
+			"company": "Agoda, Thailand",
+			"url": "https://www.agoda.com/",
+			"years": ["June 2026 - July 2026"],
+			"details": ["Not started yet"]
+		}
+	],
+	"educations": [
+		{
+			"head": "B.Sc. Information Technology",
+			"details": "King Mongkut's University of Technology Thonburi, TH. 2024-Present (GPAX 3.81)"
+		}
+	],
+	"achievements": [
+		{
+			"title": "Hacktoberfest 2025 Supercontributor | First 10,000 people reach the 6PR milestone",
+			"link": "https://www.holopin.io/hacktoberfest2025/userbadge/cmgscau3u00cfkw042fhdq31t"
+		},
+		{
+			"title": "Kaggle Advanced SQL Certification | Advanced SQL Techniques & Query Optimization",
+			"link": "https://www.kaggle.com/learn/certification/supakornieamgomol/advanced-sql"
+		},
+		{
+			"title": "Kaggle Geospatial Analysis Certification | Geographic Data Science & Spatial Analytics",
+			"link": "https://www.kaggle.com/learn/certification/supakornieamgomol/geospatial-analysis"
+		},
+		{
+			"title": "Kaggle Data Cleaning Certification | Data Preprocessing & Quality Assurance",
+			"link": "https://www.kaggle.com/learn/certification/supakornieamgomol/data-cleaning"
+		},
+		{
+			"title": "Kaggle Intermediate Machine Learning Certification | Advanced ML Techniques & Model Optimization",
+			"link": "https://www.kaggle.com/learn/certification/supakornieamgomol/intermediate-machine-learning"
+		},
+		{
+			"title": "HackTheBox Academy - Penetration Tester Job Role Path Certification | Cybersecurity & Ethical Hacking",
+			"link": "https://academy.hackthebox.com/achievement/1467577/path/16"
+		},
+		{
+			"title": "Devlab Programming Challenge - Top 0.5% (Rank 388/70,000+ Participants) | Problem Solving & Algorithms",
+			"link": "https://www.borntodev.com/devlab/certificate/b244cfccd28c9855b0c60b6f37982eef"
+		},
+		{
+			"title": "HackerRank Certified Software Engineer Intern | Technical Assessment & Problem Solving",
+			"link": "https://www.hackerrank.com/certificates/iframe/802010770e14"
+		},
+		{
+			"title": "HackerRank REST API (Intermediate) Certificate | Backend Development & API Design",
+			"link": "https://www.hackerrank.com/certificates/iframe/ebf6fe5b2f66"
+		}
+	],
+	"resumeUrl": {
+		"sourceLink": "",
+		"fullVersion": ""
+	}
 }
