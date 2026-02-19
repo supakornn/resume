@@ -195,7 +195,7 @@
 		}
 	],
 	"resumeUrl": {
-		"sourceLink": "",
-		"fullVersion": ""
+		"sourceLink": "https://github.com/supakornn/resume",
+		"fullVersion": "https://github.com/supakornn/resume/blob/main/static/data/profile.json"
 	}
 }
