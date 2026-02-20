@@ -1,7 +1,0 @@
-{
-	"name": "resume",
-	"compatibility_date": "2025-03-21",
-	"assets": {
-		"directory": ".svelte-kit/output/client"
-	}
-}
