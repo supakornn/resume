@@ -19,7 +19,7 @@
 			"hide": false
 		},
 		{
-			"name": "Naruto Knowledge Graph",
+			"name": "Naruto Jutsu",
 			"details": [
 				"Interactive graph for exploring relationships among jutsu, clans, users, and chakra natures."
 			],
@@ -35,7 +35,7 @@
 			"hide": false
 		},
 		{
-			"name": "MNIST Neural Network in Rust",
+			"name": "MNIST Rust",
 			"details": [
 				"Three-layer neural network built from scratch in Rust for handwritten-digit recognition (~97% accuracy)."
 			],
