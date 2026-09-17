@@ -75,6 +75,14 @@
 			],
 			"url": "github.com/PrunaAI/pruna/pull/360",
 			"hide": false
+		},
+		{
+			"name": "tldr-pages/tldr",
+			"details": [
+				"Added a tldr page for the crush command."
+			],
+			"url": "github.com/tldr-pages/tldr/pull/18326",
+			"hide": false
 		}
 	],
 	"experiences": [
