@@ -49,6 +49,14 @@
 			],
 			"url": "codingtype.vercel.app",
 			"hide": false
+		},
+		{
+			"name": "Digital Garden",
+			"details": [
+				"Personal digital garden and second brain for notes, built with Quartz 4."
+			],
+			"url": "github.com/supakornn/notes",
+			"hide": false
 		}
 	],
 	"contributions": [
