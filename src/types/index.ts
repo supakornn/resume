@@ -8,7 +8,8 @@ export interface IProfileResp {
 	achievements: IAchievement[];
 	resumeUrl: {
 		sourceLink: string;
-		fullVersionLink: string;
+		fullVersion?: string;
+		fullVersionLink?: string;
 	};
 }
 
@@ -23,9 +24,12 @@ export interface IAchievement {
 	title: string;
 	link: string;
 }
+
 export interface IIntro {
 	name: string;
 	nickname: string;
+	title?: string;
+	summary?: string;
 	phone: string;
 	email: string;
 	github: string;

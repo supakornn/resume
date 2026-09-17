@@ -11,10 +11,9 @@
 	},
 	"projects": [
 		{
-			"name": "MyIP - Terminal Network Interface Monitor",
+			"name": "MyIP",
 			"details": [
-				"Built a terminal-based network interface monitor in Rust and published it on crates.io with 3,000+ downloads.",
-				"Implemented a cross-platform terminal UI with real-time network interface monitoring and system information retrieval."
+				"Cross-platform Rust TUI for real-time network monitoring (3,000+ downloads)."
 			],
 			"url": "crates.io/crates/myip-tui",
 			"hide": false
@@ -22,37 +21,49 @@
 		{
 			"name": "Naruto Knowledge Graph",
 			"details": [
-				"Built an interactive knowledge graph for exploring relationships between Naruto jutsu, clans, users, and chakra natures.",
-				"Designed a graph data model and interactive visualization enabling dynamic relationship exploration and filtering."
+				"Interactive graph for exploring relationships among jutsu, clans, users, and chakra natures."
 			],
 			"url": "narutojutsu.vercel.app",
 			"hide": false
 		},
 		{
-			"name": "Goscanner - Port Scanner in Go",
+			"name": "Goscanner",
 			"details": [
-				"Built a concurrent port scanner in Go using goroutines with TCP and UDP scanning support.",
-				"Designed a worker-pool architecture with configurable concurrency for efficient large-scale network scanning."
+				"Concurrent Go port scanner with TCP/UDP support and configurable worker-pool concurrency."
 			],
 			"url": "github.com/supakornn/goscanner",
+			"hide": false
+		},
+		{
+			"name": "MNIST Neural Network in Rust",
+			"details": [
+				"Three-layer neural network built from scratch in Rust for handwritten-digit recognition (~97% accuracy)."
+			],
+			"url": "github.com/supakornn/mnist-rust",
+			"hide": false
+		},
+		{
+			"name": "CodingType",
+			"details": [
+				"Minimal Svelte typing-speed test with real-time WPM and timed modes."
+			],
+			"url": "codingtype.vercel.app",
 			"hide": false
 		}
 	],
 	"contributions": [
 		{
-			"name": "Goyave - Go REST API Framework",
+			"name": "Goyave",
 			"details": [
-				"Implemented custom ListenConfig support, enabling advanced server configuration options for framework users.",
-				"Contributed production-ready Go code with tests through the project's open-source review process."
+				"Added custom ListenConfig support for advanced server configuration."
 			],
 			"url": "github.com/go-goyave/goyave/pull/280",
 			"hide": false
 		},
 		{
-			"name": "Pruna - AI Model Optimization Framework",
+			"name": "Pruna",
 			"details": [
-				"Migrated the type checking system from mypy to ty, improving code quality and type safety across the codebase.",
-				"Refactored project-wide type annotations and resolved compatibility issues during the migration."
+				"Migrated project-wide type checking from mypy to ty and updated annotations."
 			],
 			"url": "github.com/PrunaAI/pruna/pull/360",
 			"hide": false
@@ -64,7 +75,9 @@
 			"company": "Agoda",
 			"location": "Bangkok, TH",
 			"url": "https://www.agoda.com/",
-			"years": ["Aug. 2026 - Dec. 2026"],
+			"years": [
+				"Aug. 2026 - Dec. 2026"
+			],
 			"details": [],
 			"hide": true
 		},
@@ -73,7 +86,9 @@
 			"company": "Agoda",
 			"location": "Bangkok, TH",
 			"url": "https://www.agoda.com/",
-			"years": ["Jun. 2026 - Jul. 2026"],
+			"years": [
+				"Jun. 2026 - Jul. 2026"
+			],
 			"details": [
 				"Extended Agoda's property-onboarding flow to support an additional OTA integration within an automatic URL-based import system in C#/.NET.",
 				"Implemented data transformation and validation logic using PostgreSQL and Couchbase for domain-model compatibility.",
@@ -85,7 +100,9 @@
 			"company": "SIT, KMUTT",
 			"location": "Bangkok, TH",
 			"url": "https://www.sit.kmutt.ac.th/",
-			"years": ["Feb. 2026 - May 2026"],
+			"years": [
+				"Feb. 2026 - May 2026"
+			],
 			"details": [
 				"Built the MVP of an AI-assisted grading platform from the ground up using React, Hono, and PostgreSQL.",
 				"Integrated multiple LLM providers (OpenAI, Gemini) with dynamic model selection and per-user API key management.",
@@ -96,10 +113,10 @@
 	"educations": [
 		{
 			"degree": "B.Sc. Information Technology",
-			"school": "King Mongkut's University of Technology Thonburi",
+			"school": "King Mongkut's University of Technology Thonburi (KMUTT)",
 			"location": "Bangkok, TH",
 			"years": "2024 - 2028",
-			"gpa": "GPA: 3.72/4.00"
+			"gpa": "GPAX: 3.72/4.00"
 		}
 	],
 	"achievements": [

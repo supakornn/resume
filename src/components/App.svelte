@@ -1,14 +1,13 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import type { IProfileResp } from '../types';
 	import Hideable from './Hideable.svelte';
 	import Intro from './Intro.svelte';
+	import Kofi from './Kofi.svelte';
 	import Work from './Work.svelte';
 
-	let profile: IProfileResp;
+	let { profile }: { profile: IProfileResp } = $props();
 
-	$: dataLink = `${sourceLink}/blob/main/static/data/profile.json`;
-	$: ({
+	const {
 		intro = {} as IProfileResp['intro'],
 		summary = '',
 		projects = [],
@@ -16,38 +15,36 @@
 		experiences = [],
 		educations = [],
 		achievements = [],
-		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
-	} = profile || {});
+		resumeUrl: { sourceLink = '' } = {}
+	} = $derived(profile || {});
 
-	onMount(async () => (profile = await fetchResumeProfile()));
-
-	async function fetchResumeProfile() {
-		const resp = await fetch('/data/profile.json');
-		return await resp.json();
-	}
+	const dataLink = $derived(sourceLink ? `${sourceLink}/blob/main/static/data/profile.json` : '');
 </script>
 
-<header class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen">
-	<h1 class="text-4xl">Resume</h1>
-	<h3>
-		<button on:click={() => window.print()} class="underline text-lg">[Print]</button>
-	</h3>
-	<p>
-		Printer-friendly standard résumé, any HTML tags with <code>web-only</code> CSS class will be hidden
-		on print.
+{#if intro.github === 'narze'}
+	<Kofi name={intro.github} />
+{/if}
+
+<header class="web-only text-center px-4 py-3 sm:p-6 bg-green-400 text-white w-full">
+	<h1 class="text-2xl sm:text-4xl">Resumette</h1>
+	<div class="flex flex-wrap justify-center items-center gap-x-4 gap-y-1 mt-1">
+		<button onclick={() => window.print()} class="underline text-base sm:text-lg py-1">[Print]</button>
+		<a href={sourceLink} target="_blank" rel="noopener" class="py-1">[Source]</a>
+		<a href={dataLink} target="_blank" rel="noopener" class="py-1">[Data]</a>
+	</div>
+	<p class="text-xs sm:text-base mt-1 sm:mt-2">
+		Printer-friendly standard résumé, any HTML tags with <code>web-only</code> CSS class will be hidden on print.
 	</p>
-	<p>You can click at any sections or lines hide some information before printing.</p>
-	<a href={sourceLink} target="_blank" rel="noopener">[Source]</a>
-	<a href={dataLink} target="_blank" rel="noopener">[Data]</a>
+	<p class="text-xs sm:text-base">You can click at any sections or lines hide some information before printing.</p>
 </header>
 
-<main class="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
+<main class="text-center px-3 py-4 m-0 sm:p-4 md:m-8 xl:mx-auto max-w-7xl">
 	<Intro {...intro} />
 
 	{#if summary}
 		<section>
 			<Hideable>
-				<h2 class="text-2xl print:text-4xl uppercase text-left">Summary</h2>
+				<h2 class="text-xl sm:text-2xl uppercase text-left">Summary</h2>
 				<hr />
 				<p class="text-left">{summary}</p>
 			</Hideable>
@@ -56,10 +53,26 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
+			<h2 class="text-xl sm:text-2xl uppercase text-left">Education</h2>
 			<hr />
+			<div class="text-left break-words">
+				{#each educations as edu (edu.degree)}
+					<Hideable>
+						<div>
+							<div class="flex justify-between gap-4"><strong>{edu.school}</strong>{#if edu.years}<strong class="whitespace-nowrap">{edu.years}</strong>{/if}</div>
+							<div>{edu.degree}{#if edu.gpa}&nbsp;({edu.gpa}){/if}</div>
+						</div>
+					</Hideable>
+				{/each}
+			</div>
+		</Hideable>
+	</section>
 
-			{#each experiences as exp}
+	<section>
+		<Hideable>
+			<h2 class="text-xl sm:text-2xl uppercase text-left">Work Experience</h2>
+			<hr />
+			{#each experiences as exp (exp.position + exp.company)}
 				<Work {...exp} />
 			{/each}
 		</Hideable>
@@ -67,188 +80,63 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Open Source Contributions</h2>
+			<h2 class="text-xl sm:text-2xl uppercase text-left">Projects</h2>
 			<hr />
-
-			{#each contributions as contribution}
-				<Hideable hide={contribution.hide}>
-					<div class="text-left my-4 print:my-1">
-						<div class="flex justify-between mb-2 print:mb-1">
-							<a href="https://{contribution.url}" target="_blank" rel="noreferrer" class="font-bold">
-								{contribution.name}
-							</a>
-						</div>
-						<ul class="text-left list-disc pl-8 print:pl-6">
-							{#each contribution.details as detail}
-								<li>{detail}</li>
-							{/each}
-						</ul>
-					</div>
-				</Hideable>
-			{/each}
-		</Hideable>
-	</section>
-
-	<section>
-		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
-			<hr />
-
-			{#each projects as project}
-				<Hideable hide={project.hide}>
-					<div class="text-left my-4 print:my-1">
-						<div class="flex justify-between mb-2 print:mb-1">
-							<a href="https://{project.url}" target="_blank" rel="noreferrer" class="font-bold">
-								{project.name}
-							</a>
-						</div>
-						<ul class="text-left list-disc pl-8 print:pl-6">
-							{#each project.details as detail}
-								<li>{detail}</li>
-							{/each}
-						</ul>
-					</div>
-				</Hideable>
-			{/each}
-		</Hideable>
-	</section>
-
-	<section>
-		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
-			<hr />
-
-			{#each educations as edu}
-				<Hideable>
-					<div class="my-4 print:my-1">
-						<div class="flex mb-1 print:mb-0">
-							<div class="flex-1 text-left font-bold">
-								{edu.degree}{#if edu.gpa}&nbsp;<span class="font-normal">({edu.gpa})</span>{/if}
-							</div>
-							{#if edu.location}
-								<div class="flex-1 text-right font-normal">{edu.location}</div>
-							{/if}
-						</div>
-						<div class="flex">
-							<div class="flex-1 text-left">{edu.school}</div>
-							{#if edu.years}
-								<div class="flex-1 text-right font-normal">{edu.years}</div>
-							{/if}
-						</div>
-					</div>
-				</Hideable>
-			{/each}
-		</Hideable>
-	</section>
-
-	<section>
-		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Achievements & Certificates</h2>
-			<hr />
-
-			<ul class="text-left list-disc pl-8">
-				{#each achievements as ar}
-					<Hideable>
-						<li>
-							<a href={ar.link}>{ar.title}</a>
-						</li>
+			<ul class="text-left list-disc pl-5 sm:pl-8 print:pl-6 break-words">
+				{#each projects as project (project.name)}
+					<Hideable hide={project.hide}>
+						<li class="mb-2 last:mb-0"><strong>{project.name}</strong> - {project.details.join(' ')} <a href={`https://${project.url}`} target="_blank" rel="noreferrer">{project.url}</a></li>
 					</Hideable>
 				{/each}
 			</ul>
 		</Hideable>
 	</section>
+
+	<section>
+		<Hideable>
+			<h2 class="text-xl sm:text-2xl uppercase text-left">Contributions</h2>
+			<hr />
+			<ul class="text-left list-disc pl-5 sm:pl-8 print:pl-6 break-words">
+				{#each contributions as contribution (contribution.name)}
+					<Hideable hide={contribution.hide}>
+						<li class="mb-2 last:mb-0"><strong>{contribution.name}</strong> - {contribution.details.join(' ')} <a href={`https://${contribution.url}`} target="_blank" rel="noreferrer">{contribution.url}</a></li>
+					</Hideable>
+				{/each}
+			</ul>
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
+			<h2 class="text-xl sm:text-2xl uppercase text-left">Achievements & Certificates</h2>
+			<hr />
+			<ul class="text-left list-disc pl-5 sm:pl-8 print:pl-6 break-words">
+				{#each achievements as achievement (achievement.title)}
+					<Hideable><li>{achievement.title}</li></Hideable>
+				{/each}
+			</ul>
+		</Hideable>
+	</section>
+
 </main>
 
 <style lang="postcss">
-	main {
-		overflow-x: hidden;
-	}
-
-	a {
-		text-decoration: underline;
-	}
-
-	section {
-		@apply my-4;
-	}
-
-	section h2 {
-		@apply font-semibold;
-	}
-
-	section hr {
-		@apply mt-0 mb-2;
-		border-color: darkgrey;
-		print-color-adjust: exact;
-		-webkit-print-color-adjust: exact;
-	}
-
-	:global(.print-only) {
-		display: none;
-	}
+	main { overflow-x: hidden; }
+	a { text-decoration: underline; }
+	section { @apply my-4; }
+	section h2 { @apply font-semibold; }
+	section hr { @apply mt-0 mb-2; border-color: darkgrey; }
+	:global(.print-only) { display: none; }
 
 	@media print {
-		* {
-			font-size: 9.5pt !important;
-			line-height: 1.4;
-		}
-
-		:global(a) {
-			text-decoration: none !important;
-		}
-
-
-		strong {
-			font-size: 9.5pt !important;
-		}
-
-		:global(.text-sm) {
-			font-size: 9pt !important;
-		}
-
-		section h2 {
-			font-size: 10.5pt !important;
-		}
-
-		:global(.print-only) {
-			display: inherit;
-		}
-
-		:global(.web-only) {
-			display: none;
-		}
-
-		ul {
-			padding-left: 1.2rem;
-			margin-top: 0.1rem;
-			margin-bottom: 0.2rem;
-		}
-
-		li {
-			margin-bottom: 0.15rem;
-		}
-
-		section {
-			margin-top: 0.4rem;
-			margin-bottom: 0.4rem;
-		}
-
-		section:first-of-type {
-			margin-top: 0.1rem;
-		}
-
-		section hr {
-			margin-top: 0.05rem;
-			margin-bottom: 0.1rem;
-			border: none !important;
-			border-top: 0.5px solid #aaa !important;
-			print-color-adjust: exact;
-			-webkit-print-color-adjust: exact;
-		}
-
-		main {
-			margin: 0;
-			padding: 0.3rem 0.5rem;
-		}
+		* { font-size: 0.75rem; }
+		:global(.print-only) { display: inherit; }
+		:global(.web-only) { display: none; }
+		ul { @apply pl-6; }
+		li { break-inside: avoid; }
+		section { @apply my-2; }
+		section h2 { @apply text-sm; break-after: avoid; }
+		section hr { @apply mt-0 mb-1; break-after: avoid; }
+		main { margin: 0; padding: 0; }
 	}
 </style>

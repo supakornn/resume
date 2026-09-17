@@ -1,60 +1,69 @@
 <script lang="ts">
-	export let name: string = '';
-	export let nickname: string = '';
-	export let phone: string = '';
-	export let email: string = '';
-	export let github: string = '';
-	export let location: string = '';
-	export let website: string = '';
-	export let linkedin: string = '';
-
-	$: contacts = [
-		email ? { label: email, href: `mailto:${email}` } : null,
-		github ? { label: `github.com/${github}`, href: `https://github.com/${github}` } : null,
-		linkedin ? { label: `linkedin.com/in/${linkedin}`, href: `https://linkedin.com/in/${linkedin}` } : null,
-		website ? { label: website, href: `https://${website}` } : null,
-		phone ? { label: phone, href: `tel:${phone}` } : null,
-		location ? { label: location, href: null } : null,
-	].filter(Boolean);
+	let {
+		name = 'Foo',
+		nickname = '',
+		title = '',
+		summary = '',
+		phone = '',
+		email = '',
+		github = '',
+		linkedin = '',
+		location = '',
+		website = ''
+	}: {
+		name?: string;
+		nickname?: string;
+		title?: string;
+		summary?: string;
+		phone?: string;
+		email?: string;
+		github?: string;
+		linkedin?: string;
+		location?: string;
+		website?: string;
+	} = $props();
 </script>
 
-<div class="text-center py-4 print:py-1">
-	<h1 class="text-4xl lg:text-5xl font-bold print:text-xl mb-1">
+<div class="flex flex-wrap flex-row gap-x-4 text-sm sm:text-base">
+	<div class="flex-1 basis-[45%] sm:basis-0 text-left text-xs sm:text-sm print:text-[9pt] sm:py-4 sm:w-48 break-words">
+		<p><a href={`tel:${phone}`}>{phone}</a></p>
+		<p><a href={`mailto:${email}`}>{email}</a></p>
+		<p>{location}</p>
+	</div>
+
+	<h2
+		class="flex-none basis-full sm:basis-auto order-first sm:order-none print:order-none text-3xl sm:text-2xl md:text-3xl lg:text-6xl text-center px-0 py-2 sm:p-4 print:pt-0 break-words"
+	>
 		{name}
-		{#if nickname}
-			<span class="web-only text-2xl font-normal text-gray-500">({nickname})</span>
+		<span class="block -mt-1 text-base lg:text-lg">({nickname})</span>
+		{#if title}
+			<span class="block mt-1 text-base sm:text-lg lg:text-xl font-semibold">{title}</span>
 		{/if}
-	</h1>
-	<div class="flex flex-wrap justify-center gap-x-1">
-		{#each contacts as contact, i}
-			{#if i > 0}<span class="text-gray-400">·</span>{/if}
-			{#if contact.href}
-				<a href={contact.href} target="_blank" rel="noreferrer">{contact.label}</a>
-			{:else}
-				<span>{contact.label}</span>
-			{/if}
-		{/each}
+	</h2>
+
+	<div
+		class="flex-1 basis-[45%] sm:basis-0 text-right text-xs sm:text-sm print:text-[9pt] sm:py-4 sm:w-48 break-words print:text-right"
+	>
+		<p>
+			<a href={`https://github.com/${github}`} target="_blank" rel="noreferrer"
+				>github.com/{github}</a
+			>
+		</p>
+		<p>
+			<a href={`https://${website}`} target="_blank" rel="noreferrer">{website}</a>
+		</p>
+		<p>
+			<a href={`https://linkedin.com/in/${linkedin}`} target="_blank" rel="noreferrer">linkedin.com/in/{linkedin}</a>
+		</p>
 	</div>
 </div>
+
+{#if summary}
+	<p class="text-left text-sm sm:text-base print:text-sm mb-2">{summary}</p>
+{/if}
 
 <style lang="postcss">
 	a {
 		text-decoration: underline;
-	}
-
-	@media print {
-		div {
-			padding: 0 !important;
-			margin-bottom: 0.3rem;
-		}
-
-		h1 {
-			font-size: 16pt !important;
-			margin-bottom: 0.2rem;
-		}
-
-		.flex {
-			font-size: 8pt !important;
-		}
 	}
 </style>

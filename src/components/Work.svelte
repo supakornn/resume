@@ -1,52 +1,46 @@
 <script lang="ts">
 	import Hideable from './Hideable.svelte';
 
-	export let position = '';
-	export let company = '';
-	export let location = '';
-	export let url = '';
-	export let years: string[] = [];
-	export let details: string[] = [];
-	export let hide = false;
+	let {
+		position = '',
+		company = '',
+		url = '',
+		years = [],
+		details = [],
+		hide = false
+	}: {
+		position?: string;
+		company?: string;
+		url?: string;
+		years?: string[];
+		details?: string[];
+		hide?: boolean;
+	} = $props();
 </script>
 
 <div class="work-experience">
 	<Hideable {hide}>
-		<div class="flex mb-1 print:mb-0">
-			<div class="flex-1 text-left font-bold">
-				<a href={url} target="_blank" rel="noreferrer">{company}</a>
+		<div class="work-header flex flex-col sm:flex-row print:flex-row sm:gap-4 print:gap-4 font-bold mb-2 print:mb-1">
+			<div class="flex-1 text-left print:whitespace-nowrap">{position}</div>
+			<div class="flex justify-between gap-2 sm:contents print:contents">
+				<div class="flex-initial text-left"><a href={url} target="_blank" rel="noreferrer">{company}</a></div>
+				<div class="flex-none sm:flex-1 text-right print:whitespace-nowrap">{years.join(' - ')}</div>
 			</div>
-			{#if location}
-				<div class="flex-1 text-right font-normal">{location}</div>
-			{/if}
 		</div>
-		<div class="flex mb-2 print:mb-1">
-			<div class="flex-1 text-left font-bold">{position}</div>
-			<div class="flex-1 text-right font-normal">{years.join(' - ')}</div>
-		</div>
-		<ul class="text-left list-disc pl-8 print:pl-6">
-			{#each details as detail}
-				<li>
-					{detail}
-				</li>
+		<ul class="text-left list-disc pl-5 sm:pl-8 print:pl-6">
+			{#each details as detail (detail)}
+				<Hideable><li>{detail}</li></Hideable>
 			{/each}
 		</ul>
 	</Hideable>
 </div>
 
 <style lang="postcss">
-	.work-experience {
-		@apply my-4;
-	}
-
-	a {
-		text-decoration: underline;
-	}
-
+	.work-experience { @apply my-4; }
+	a { text-decoration: underline; }
 	@media print {
-		.work-experience {
-			margin-top: 0.4rem;
-			margin-bottom: 0.4rem;
-		}
+		.work-experience { @apply my-1; }
+		li { break-inside: avoid; }
+		.work-header { break-after: avoid; }
 	}
 </style>
