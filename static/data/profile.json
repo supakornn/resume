@@ -1,162 +1,162 @@
 {
-	"intro": {
-		"name": "Supakorn Ieamgomol",
-		"nickname": "Gap",
-		"phone": "",
-		"email": "supakorn0728@gmail.com",
-		"github": "supakornn",
-		"linkedin": "supakornieamgomol",
-		"location": "Bangkok, Thailand",
-		"website": "supakorn.me",
-		"title": "Software Engineer Intern",
-		"summary": "Third-year Information Technology student at KMUTT and part-time Software Engineer Intern at Agoda, working on a Kotlin/Ktor service template and its end-to-end development workflow. Previously built a C#/.NET OTA integration and an AI-assisted grading MVP at SIT."
-	},
-	"projects": [
-		{
-			"name": "MyIP",
-			"details": [
-				"Cross-platform Rust TUI for real-time network monitoring (3,000+ downloads)."
-			],
-			"url": "crates.io/crates/myip-tui",
-			"hide": false
-		},
-		{
-			"name": "Naruto Jutsu",
-			"details": [
-				"Interactive graph for exploring relationships among jutsu, clans, users, and chakra natures."
-			],
-			"url": "narutojutsu.vercel.app",
-			"hide": false
-		},
-		{
-			"name": "Goscanner",
-			"details": [
-				"Concurrent Go port scanner with TCP/UDP support and configurable worker-pool concurrency."
-			],
-			"url": "github.com/supakornn/goscanner",
-			"hide": false
-		},
-		{
-			"name": "MNIST Rust",
-			"details": [
-				"Three-layer neural network built from scratch in Rust for handwritten-digit recognition (~97% accuracy)."
-			],
-			"url": "github.com/supakornn/mnist-rust",
-			"hide": false
-		},
-		{
-			"name": "CodingType",
-			"details": [
-				"Minimal Svelte typing-speed test with real-time WPM and timed modes."
-			],
-			"url": "codingtype.vercel.app",
-			"hide": false
-		},
-		{
-			"name": "Digital Garden",
-			"details": [
-				"Personal digital garden and second brain for notes, built with Quartz 4."
-			],
-			"url": "github.com/supakornn/notes",
-			"hide": false
-		}
-	],
-	"contributions": [
-		{
-			"name": "Goyave",
-			"details": [
-				"Added custom ListenConfig support for advanced server configuration."
-			],
-			"url": "github.com/go-goyave/goyave/pull/280",
-			"hide": false
-		},
-		{
-			"name": "Pruna",
-			"details": [
-				"Migrated project-wide type checking from mypy to ty and updated annotations."
-			],
-			"url": "github.com/PrunaAI/pruna/pull/360",
-			"hide": false
-		},
-		{
-			"name": "tldr-pages/tldr",
-			"details": [
-				"Added a tldr page for the crush command."
-			],
-			"url": "github.com/tldr-pages/tldr/pull/18326",
-			"hide": false
-		}
-	],
-	"experiences": [
-		{
-			"position": "Software Engineer Intern (Part-Time)",
-			"company": "Agoda",
-			"location": "Bangkok, TH",
-			"url": "https://www.agoda.com/",
-			"years": [
-				"Aug. 2026 - Dec. 2026"
-			],
-			"details": [],
-			"hide": true
-		},
-		{
-			"position": "Software Engineer Intern",
-			"company": "Agoda",
-			"location": "Bangkok, TH",
-			"url": "https://www.agoda.com/",
-			"years": [
-				"Jun. 2026 - Jul. 2026"
-			],
-			"details": [
-				"Extended Agoda's property-onboarding flow to support an additional OTA integration within an automatic URL-based import system in C#/.NET.",
-				"Implemented data transformation and validation logic using PostgreSQL and Couchbase for domain-model compatibility.",
-				"Monitored an A/B rollout using Grafana, quickly diagnosing and resolving issues to maintain a smooth experience for users."
-			]
-		},
-		{
-			"position": "Research Assistant (Apprenticeship)",
-			"company": "SIT, KMUTT",
-			"location": "Bangkok, TH",
-			"url": "https://www.sit.kmutt.ac.th/",
-			"years": [
-				"Feb. 2026 - May 2026"
-			],
-			"details": [
-				"Built the MVP of an AI-assisted grading platform from the ground up using React, Hono, and PostgreSQL.",
-				"Integrated multiple LLM providers (OpenAI, Gemini) with dynamic model selection and per-user API key management.",
-				"Designed a rubric-driven grading pipeline with shared type-safe schemas (Zod), JWT authentication, and role-based access control."
-			]
-		}
-	],
-	"educations": [
-		{
-			"degree": "B.Sc. Information Technology",
-			"school": "King Mongkut's University of Technology Thonburi (KMUTT)",
-			"location": "Bangkok, TH",
-			"years": "2024 - 2028",
-			"gpa": "GPAX: 3.72/4.00"
-		}
-	],
-	"achievements": [
-		{
-			"title": "Hacktoberfest 2025 - Supercontributor (Top 10,000 globally)",
-			"link": "https://www.holopin.io/hacktoberfest2025/userbadge/cmgscau3u00cfkw042fhdq31t"
-		},
-		{
-			"title": "HackTheBox Academy - Penetration Tester Path",
-			"link": "https://www.hackthebox.com"
-		},
-		{
-			"title": "Devlab Programming Challenge - Top 0.5%",
-			"link": "https://www.borntodev.com/devlab/certificate/b244cfccd28c9855b0c60b6f37982eef"
-		},
-		{
-			"title": "HackerRank: Certified Software Engineer Intern, REST API (Intermediate)",
-			"link": "https://www.hackerrank.com/profile/supakorn0728"
-		}
-	],
-	"resumeUrl": {
-		"sourceLink": "https://github.com/supakornn/resume",
-		"fullVersion": "https://github.com/supakornn/resume/blob/main/static/data/profile.json"
-	}
+  "intro": {
+    "name": "Supakorn Ieamgomol",
+    "nickname": "Gap",
+    "phone": "",
+    "email": "supakorn0728@gmail.com",
+    "github": "supakornn",
+    "linkedin": "supakornieamgomol",
+    "location": "Bangkok, Thailand",
+    "website": "supakorn.me",
+    "title": "Software Engineer Intern",
+    "summary": "Third-year Information Technology student at KMUTT and part-time Software Engineer Intern at Agoda, working on a Kotlin/Ktor service template and its end-to-end development workflow. Previously built a C#/.NET OTA integration and an AI-assisted grading MVP at SIT."
+  },
+  "projects": [
+    {
+      "name": "MyIP",
+      "details": [
+        "Cross-platform Rust TUI for real-time network monitoring (3,000+ downloads)."
+      ],
+      "url": "crates.io/crates/myip-tui",
+      "hide": false
+    },
+    {
+      "name": "Naruto Jutsu",
+      "details": [
+        "Interactive graph for exploring relationships among jutsu, clans, users, and chakra natures."
+      ],
+      "url": "narutojutsu.vercel.app",
+      "hide": false
+    },
+    {
+      "name": "Goscanner",
+      "details": [
+        "Concurrent Go port scanner with TCP/UDP support and configurable worker-pool concurrency."
+      ],
+      "url": "github.com/supakornn/goscanner",
+      "hide": false
+    },
+    {
+      "name": "MNIST Rust",
+      "details": [
+        "Three-layer neural network built from scratch in Rust for handwritten-digit recognition (~97% accuracy)."
+      ],
+      "url": "github.com/supakornn/mnist-rust",
+      "hide": false
+    },
+    {
+      "name": "CodingType",
+      "details": [
+        "Minimal Svelte typing-speed test with real-time WPM and timed modes."
+      ],
+      "url": "codingtype.vercel.app",
+      "hide": false
+    },
+    {
+      "name": "Digital Garden",
+      "details": [
+        "Personal digital garden and second brain for notes, built with Quartz 4."
+      ],
+      "url": "supakorn.me",
+      "hide": false
+    }
+  ],
+  "contributions": [
+    {
+      "name": "Goyave",
+      "details": [
+        "Added custom ListenConfig support for advanced server configuration."
+      ],
+      "url": "github.com/go-goyave/goyave/pull/280",
+      "hide": false
+    },
+    {
+      "name": "Pruna",
+      "details": [
+        "Migrated project-wide type checking from mypy to ty and updated annotations."
+      ],
+      "url": "github.com/PrunaAI/pruna/pull/360",
+      "hide": false
+    },
+    {
+      "name": "tldr-pages/tldr",
+      "details": [
+        "Added a tldr page for the crush command."
+      ],
+      "url": "github.com/tldr-pages/tldr/pull/18326",
+      "hide": false
+    }
+  ],
+  "experiences": [
+    {
+      "position": "Software Engineer Intern (Part-Time)",
+      "company": "Agoda",
+      "location": "Bangkok, TH",
+      "url": "https://www.agoda.com/",
+      "years": [
+        "Aug. 2026 - Dec. 2026"
+      ],
+      "details": [],
+      "hide": true
+    },
+    {
+      "position": "Software Engineer Intern",
+      "company": "Agoda",
+      "location": "Bangkok, TH",
+      "url": "https://www.agoda.com/",
+      "years": [
+        "Jun. 2026 - Jul. 2026"
+      ],
+      "details": [
+        "Extended Agoda's property-onboarding flow to support an additional OTA integration within an automatic URL-based import system in C#/.NET.",
+        "Implemented data transformation and validation logic using PostgreSQL and Couchbase for domain-model compatibility.",
+        "Monitored an A/B rollout using Grafana, quickly diagnosing and resolving issues to maintain a smooth experience for users."
+      ]
+    },
+    {
+      "position": "Research Assistant (Apprenticeship)",
+      "company": "SIT, KMUTT",
+      "location": "Bangkok, TH",
+      "url": "https://www.sit.kmutt.ac.th/",
+      "years": [
+        "Feb. 2026 - May 2026"
+      ],
+      "details": [
+        "Built the MVP of an AI-assisted grading platform from the ground up using React, Hono, and PostgreSQL.",
+        "Integrated multiple LLM providers (OpenAI, Gemini) with dynamic model selection and per-user API key management.",
+        "Designed a rubric-driven grading pipeline with shared type-safe schemas (Zod), JWT authentication, and role-based access control."
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "degree": "B.Sc. Information Technology",
+      "school": "King Mongkut's University of Technology Thonburi (KMUTT)",
+      "location": "Bangkok, TH",
+      "years": "2024 - 2028",
+      "gpa": "GPAX: 3.72/4.00"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Hacktoberfest 2025 - Supercontributor (Top 10,000 globally)",
+      "link": "https://www.holopin.io/hacktoberfest2025/userbadge/cmgscau3u00cfkw042fhdq31t"
+    },
+    {
+      "title": "HackTheBox Academy - Penetration Tester Path",
+      "link": "https://www.hackthebox.com"
+    },
+    {
+      "title": "Devlab Programming Challenge - Top 0.5%",
+      "link": "https://www.borntodev.com/devlab/certificate/b244cfccd28c9855b0c60b6f37982eef"
+    },
+    {
+      "title": "HackerRank: Certified Software Engineer Intern, REST API (Intermediate)",
+      "link": "https://www.hackerrank.com/profile/supakorn0728"
+    }
+  ],
+  "resumeUrl": {
+    "sourceLink": "https://github.com/supakornn/resume",
+    "fullVersion": "https://github.com/supakornn/resume/blob/main/static/data/profile.json"
+  }
 }
