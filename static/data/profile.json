@@ -7,7 +7,9 @@
 		"github": "supakornn",
 		"linkedin": "supakornieamgomol",
 		"location": "Bangkok, Thailand",
-		"website": "supakorn.me"
+		"website": "supakorn.me",
+		"title": "Software Engineer Intern",
+		"summary": "Information Technology student at KMUTT and part-time Software Engineer Intern at Agoda, working on a Kotlin/Ktor service template and its end-to-end development workflow. Previously built a C#/.NET OTA integration and an AI-assisted grading MVP at SIT."
 	},
 	"projects": [
 		{
