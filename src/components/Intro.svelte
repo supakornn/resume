@@ -1,4 +1,6 @@
 <script lang="ts">
+	let titleHidden = $state(false);
+
 	let {
 		name = 'Foo',
 		nickname = '',
@@ -37,7 +39,20 @@
 		{name}
 		<span class="block -mt-1 text-base lg:text-lg">({nickname})</span>
 		{#if title}
-			<span class="block mt-1 text-base sm:text-lg lg:text-xl font-semibold">{title}</span>
+			<span
+				role="button"
+				tabindex="0"
+				onclick={() => (titleHidden = !titleHidden)}
+				onkeydown={(event) => {
+					if (event.key === 'Enter' || event.key === ' ') {
+						event.preventDefault();
+						titleHidden = !titleHidden;
+					}
+				}}
+				class="block mt-1 text-base sm:text-lg lg:text-xl font-semibold cursor-pointer select-none"
+				class:web-only={titleHidden}
+				class:text-gray-300={titleHidden}
+			>{title}</span>
 		{/if}
 	</h2>
 
