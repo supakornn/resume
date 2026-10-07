@@ -28,7 +28,7 @@
 
 <div class="flex flex-wrap flex-row gap-x-4 text-sm sm:text-base">
 	<div class="flex-1 basis-[45%] sm:basis-0 text-left text-xs sm:text-sm print:text-[9pt] sm:py-4 sm:w-48 break-words">
-		<p><a href={`tel:${phone}`}>{phone}</a></p>
+		{#if phone}<p><a href={`tel:${phone}`}>{phone}</a></p>{/if}
 		<p><a href={`mailto:${email}`}>{email}</a></p>
 		<p>{location}</p>
 	</div>
@@ -74,7 +74,7 @@
 </div>
 
 {#if summary}
-	<p class="text-left text-sm sm:text-base print:text-sm mb-2">{summary}</p>
+	<p class="text-left text-sm print:text-xs mb-2">{summary}</p>
 {/if}
 
 <style lang="postcss">

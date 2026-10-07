@@ -8,17 +8,15 @@
     "linkedin": "supakornieamgomol",
     "location": "Bangkok, Thailand",
     "website": "supakorn.me",
-    "title": "Software Engineer Intern",
-    "summary": "Third-year Information Technology student at KMUTT and part-time Software Engineer Intern at Agoda, working on a Kotlin/Ktor service template and its end-to-end development workflow. Previously built a C#/.NET OTA integration and an AI-assisted grading MVP at SIT."
+    "title": "Software Engineer Intern"
   },
   "projects": [
     {
       "name": "MMORPG Shop",
       "details": [
-        "Independently built an MMORPG shop backend across auth, player, item, inventory, and payment services.",
-        "Applied DDD boundaries and handler, use-case, and repository layers to organize each service.",
-        "Implemented Kafka-based buy and sell workflows that update player balances and inventory, with rollback for failed steps.",
-        "Added REST and gRPC APIs with JWT authentication, role-based access control, and MongoDB persistence."
+        "Independently built a Go-based MMORPG shop composed of 5 domain microservices for authentication, player, item, inventory, and payment management.",
+        "Implemented Kafka-driven buy and sell workflows that update player balances and inventories, with persisted offset tracking and compensating rollback events for failed transactions.",
+        "Exposed REST and gRPC APIs backed by isolated MongoDB databases, securing access with JWT authentication, role-based authorization, and request validation."
       ],
       "techStack": ["Go", "Echo", "MongoDB", "Kafka", "gRPC", "Docker"],
       "url": "github.com/supakornn/mmorpg-shop",
@@ -50,10 +48,15 @@
       "location": "Bangkok, TH",
       "url": "https://www.agoda.com/",
       "years": [
-        "Aug. 2026 - Dec. 2026"
+        "Aug. 2026 - Present"
       ],
-      "details": [],
-      "hide": true
+      "details": [
+        "Building a configurable Kotlin/Ktor service scaffold template for Agoda teams, supporting REST, GraphQL, BFF, database, testing, and local-development options.",
+        "Enhanced the template ecosystem across 3 repositories by adding GraphQL client support, parent-context propagation to Tempo, and client-profile metrics.",
+        "Migrating architecture tests from ArchUnit to Konsist and expanding template examples for internal use cases."
+      ],
+      "techStack": ["Kotlin", "Ktor", "Java", "OpenTelemetry", "Prometheus", "Grafana", "GraphQL"],
+      "hide": false
     },
     {
       "position": "Software Engineer Intern",
@@ -64,10 +67,9 @@
         "Jun. 2026 - Jul. 2026"
       ],
       "details": [
-        "Implemented end-to-end support for a new OTA integration across four backend microservices and the BFF.",
-        "Built mapping and validation logic to translate OTA data into Agoda’s internal property model.",
-        "Added unit and integration tests for the new OTA import flow across affected services.",
-        "Diagnosed data issues during an early A/B experiment by tracing application logs and requests in Grafana."
+        "Collaborated with the team to deliver the Rakuten OTA integration across backend microservices and the BFF, supporting property-data mapping and validation.",
+        "Developed unit and integration tests for the Rakuten import flow, validating new mapping and validation logic across affected backend services.",
+        "Investigated import failures during the A/B rollout by comparing Rakuten payloads, requests, and Grafana logs. Identified missing data fields that caused unhandled errors."
       ],
       "techStack": ["C#", "ASP.NET Core", "TypeScript", "React", "PostgreSQL", "Couchbase", "Grafana"]
     },
@@ -80,11 +82,11 @@
         "Feb. 2026 - May 2026"
       ],
       "details": [
-        "Independently built a research proof of concept for teachers to manage exams, answer keys, rubrics, and student submissions.",
-        "Added AI assistance for rubric creation and student-answer grading, including an explanation for each score.",
-        "Implemented protected teacher workflows with input validation and role-based access control."
+        "Built a full-stack professor-facing exam-management proof of concept with manual, Excel-import, and AI-generated rubric workflows, backed by 26 integration tests.",
+        "Integrated GPT-4o and Gemini through Vercel AI SDK for rubric generation and AI-assisted grading with score explanations, batch processing, and human review.",
+        "Protected professor-provided AI keys with AES-256-GCM encryption and implemented role-based access control and input validation."
       ],
-      "techStack": ["React", "TypeScript", "TanStack", "Hono", "PostgreSQL", "Vercel AI SDK", "Zod"]
+      "techStack": ["React", "TypeScript", "TanStack", "Hono", "PostgreSQL", "Vercel AI SDK", "OpenAI", "Gemini", "Zod"]
     }
   ],
   "educations": [
@@ -92,7 +94,7 @@
       "degree": "B.Sc. Information Technology",
       "school": "King Mongkut's University of Technology Thonburi (KMUTT)",
       "location": "Bangkok, TH",
-      "years": "2024 - 2028",
+      "years": "2024 - Present (Expected 2028)",
       "gpa": "GPAX: 3.72/4.00"
     }
   ],

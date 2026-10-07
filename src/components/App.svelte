@@ -53,6 +53,16 @@
 
 	<section>
 		<Hideable>
+			<h2 class="text-xl sm:text-2xl uppercase text-left">Work Experience</h2>
+			<hr />
+			{#each experiences as exp (exp.position + exp.company)}
+				<Work {...exp} />
+			{/each}
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
 			<h2 class="text-xl sm:text-2xl uppercase text-left">Education</h2>
 			<hr />
 			<div class="text-left break-words">
@@ -65,16 +75,6 @@
 					</Hideable>
 				{/each}
 			</div>
-		</Hideable>
-	</section>
-
-	<section>
-		<Hideable>
-			<h2 class="text-xl sm:text-2xl uppercase text-left">Work Experience</h2>
-			<hr />
-			{#each experiences as exp (exp.position + exp.company)}
-				<Work {...exp} />
-			{/each}
 		</Hideable>
 	</section>
 
