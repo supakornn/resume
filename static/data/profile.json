@@ -52,8 +52,8 @@
       ],
       "details": [
         "Building a configurable Kotlin/Ktor service scaffold template for Agoda teams, supporting REST, GraphQL, BFF, database, testing, and local-development options.",
-        "Enhanced the template ecosystem across 3 repositories by adding GraphQL client support, parent-context propagation to Tempo, and client-profile metrics.",
-        "Migrating architecture tests from ArchUnit to Konsist and expanding template examples for internal use cases."
+        "Added GraphQL client support, client-profile metrics, and parent-context propagation for Tempo to the Kotlin/Ktor service template ecosystem.",
+        "Replacing ArchUnit with Konsist to express Kotlin-native architecture rules with less boilerplate and clearer tests."
       ],
       "techStack": ["Kotlin", "Ktor", "Java", "OpenTelemetry", "Prometheus", "Grafana", "GraphQL"],
       "hide": false
