@@ -13,51 +13,15 @@
   },
   "projects": [
     {
-      "name": "MyIP",
+      "name": "MMORPG Shop",
       "details": [
-        "Cross-platform Rust TUI for real-time network monitoring (3,000+ downloads)."
+        "Built an MMORPG item-shop backend with auth, player, item, inventory, and payment domains.",
+        "Applied DDD to split business domains and Clean Architecture with handler, use-case, and repository layers.",
+        "Implemented event-driven buy/sell workflows with compensating rollback when a transaction step fails.",
+        "Built protected service APIs with persistent data storage and role-based access control."
       ],
-      "url": "crates.io/crates/myip-tui",
-      "hide": false
-    },
-    {
-      "name": "Naruto Jutsu",
-      "details": [
-        "Interactive graph for exploring relationships among jutsu, clans, users, and chakra natures."
-      ],
-      "url": "narutojutsu.vercel.app",
-      "hide": false
-    },
-    {
-      "name": "Goscanner",
-      "details": [
-        "Concurrent Go port scanner with TCP/UDP support and configurable worker-pool concurrency."
-      ],
-      "url": "github.com/supakornn/goscanner",
-      "hide": false
-    },
-    {
-      "name": "MNIST Rust",
-      "details": [
-        "Three-layer neural network built from scratch in Rust for handwritten-digit recognition (~97% accuracy)."
-      ],
-      "url": "github.com/supakornn/mnist-rust",
-      "hide": false
-    },
-    {
-      "name": "CodingType",
-      "details": [
-        "Minimal Svelte typing-speed test with real-time WPM and timed modes."
-      ],
-      "url": "codingtype.vercel.app",
-      "hide": false
-    },
-    {
-      "name": "Digital Garden",
-      "details": [
-        "Personal digital garden and second brain for notes, built with Quartz 4."
-      ],
-      "url": "supakorn.me",
+      "techStack": ["Go", "Echo", "MongoDB", "Kafka", "gRPC", "Docker"],
+      "url": "github.com/supakornn/mmorpg-shop",
       "hide": false
     }
   ],
@@ -65,7 +29,7 @@
     {
       "name": "Goyave",
       "details": [
-        "Added custom ListenConfig support for advanced server configuration."
+        "Contributed custom ListenConfig support for advanced server configuration."
       ],
       "url": "github.com/go-goyave/goyave/pull/280",
       "hide": false
@@ -73,17 +37,9 @@
     {
       "name": "Pruna",
       "details": [
-        "Migrated project-wide type checking from mypy to ty and updated annotations."
+        "Migrated project-wide static type checking from mypy to ty and updated Python annotations."
       ],
       "url": "github.com/PrunaAI/pruna/pull/360",
-      "hide": false
-    },
-    {
-      "name": "tldr-pages/tldr",
-      "details": [
-        "Added a tldr page for the crush command."
-      ],
-      "url": "github.com/tldr-pages/tldr/pull/18326",
       "hide": false
     }
   ],
@@ -108,10 +64,11 @@
         "Jun. 2026 - Jul. 2026"
       ],
       "details": [
-        "Extended Agoda's property-onboarding flow to support an additional OTA integration within an automatic URL-based import system in C#/.NET.",
-        "Implemented data transformation and validation logic using PostgreSQL and Couchbase for domain-model compatibility.",
-        "Monitored an A/B rollout using Grafana, quickly diagnosing and resolving issues to maintain a smooth experience for users."
-      ]
+        "Added a new OTA to Agoda’s URL-based property-import flow across backend services and the BFF.",
+        "Mapped and validated OTA property data to fit Agoda’s internal domain model.",
+        "Monitored an A/B rollout, quickly diagnosing and resolving issues to maintain a smooth user experience."
+      ],
+      "techStack": ["C#", "ASP.NET Core", "TypeScript", "React", "PostgreSQL", "Couchbase", "Grafana"]
     },
     {
       "position": "Research Assistant (Apprenticeship)",
@@ -122,10 +79,11 @@
         "Feb. 2026 - May 2026"
       ],
       "details": [
-        "Built the MVP of an AI-assisted grading platform from the ground up using React, Hono, and PostgreSQL.",
-        "Integrated multiple LLM providers (OpenAI, Gemini) with dynamic model selection and per-user API key management.",
-        "Designed a rubric-driven grading pipeline with shared type-safe schemas (Zod), JWT authentication, and role-based access control."
-      ]
+        "Built the MVP of an AI-assisted grading platform from the ground up.",
+        "Integrated multiple LLM providers with dynamic model selection and per-user API key management.",
+        "Designed a rubric-driven grading workflow with type-safe schemas, authentication, and role-based access control."
+      ],
+      "techStack": ["React", "TypeScript", "TanStack", "Hono", "PostgreSQL", "Vercel AI SDK", "Zod"]
     }
   ],
   "educations": [
@@ -143,16 +101,12 @@
       "link": "https://www.holopin.io/hacktoberfest2025/userbadge/cmgscau3u00cfkw042fhdq31t"
     },
     {
-      "title": "HackTheBox Academy - Penetration Tester Path",
-      "link": "https://www.hackthebox.com"
-    },
-    {
       "title": "Devlab Programming Challenge - Top 0.5%",
       "link": "https://www.borntodev.com/devlab/certificate/b244cfccd28c9855b0c60b6f37982eef"
     },
     {
-      "title": "HackerRank: Certified Software Engineer Intern, REST API (Intermediate)",
-      "link": "https://www.hackerrank.com/profile/supakorn0728"
+      "title": "HackerRank - REST API (Intermediate) Certificate",
+      "link": "https://www.hackerrank.com/certificates/ebf6fe5b2f66"
     }
   ],
   "resumeUrl": {

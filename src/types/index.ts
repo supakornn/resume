@@ -41,6 +41,7 @@ export interface IIntro {
 export interface IProject {
 	name: string;
 	details: string[];
+	techStack?: string[];
 	url: string;
 	hide: boolean;
 }
@@ -52,6 +53,7 @@ export interface IExperience {
 	url: string;
 	years: string[];
 	details: string[];
+	techStack?: string[];
 	hide?: boolean;
 }
 

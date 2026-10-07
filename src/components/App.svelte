@@ -82,19 +82,32 @@
 		<Hideable>
 			<h2 class="text-xl sm:text-2xl uppercase text-left">Projects</h2>
 			<hr />
-			<ul class="text-left list-disc pl-5 sm:pl-8 print:pl-6 break-words">
+			<div class="text-left break-words">
 				{#each projects as project (project.name)}
 					<Hideable hide={project.hide}>
-						<li class="mb-2 last:mb-0"><strong>{project.name}</strong> - {project.details.join(' ')} <a href={`https://${project.url}`} target="_blank" rel="noreferrer">{project.url}</a></li>
+						<div class="mb-2 last:mb-0">
+							<div class="flex justify-between gap-4">
+								<strong>{project.name}</strong>
+								<a class="whitespace-nowrap" href={`https://${project.url}`} target="_blank" rel="noreferrer">{project.url}</a>
+							</div>
+							<ul class="list-disc pl-5 sm:pl-8 print:pl-6">
+								{#each project.details as detail (detail)}
+									<li>{detail}</li>
+								{/each}
+							</ul>
+							{#if project.techStack?.length}
+								<p><strong>Tech Stack:</strong> {project.techStack.join(', ')}</p>
+							{/if}
+						</div>
 					</Hideable>
 				{/each}
-			</ul>
+			</div>
 		</Hideable>
 	</section>
 
 	<section>
 		<Hideable>
-			<h2 class="text-xl sm:text-2xl uppercase text-left">Contributions</h2>
+			<h2 class="text-xl sm:text-2xl uppercase text-left">Open-Source Contributions</h2>
 			<hr />
 			<ul class="text-left list-disc pl-5 sm:pl-8 print:pl-6 break-words">
 				{#each contributions as contribution (contribution.name)}
@@ -108,11 +121,11 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-xl sm:text-2xl uppercase text-left">Achievements & Certificates</h2>
+			<h2 class="text-xl sm:text-2xl uppercase text-left">Achievements</h2>
 			<hr />
 			<ul class="text-left list-disc pl-5 sm:pl-8 print:pl-6 break-words">
 				{#each achievements as achievement (achievement.title)}
-					<Hideable><li>{achievement.title}</li></Hideable>
+					<Hideable><li><a href={achievement.link} target="_blank" rel="noreferrer">{achievement.title}</a></li></Hideable>
 				{/each}
 			</ul>
 		</Hideable>

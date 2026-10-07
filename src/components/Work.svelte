@@ -7,6 +7,7 @@
 		url = '',
 		years = [],
 		details = [],
+		techStack = [],
 		hide = false
 	}: {
 		position?: string;
@@ -14,6 +15,7 @@
 		url?: string;
 		years?: string[];
 		details?: string[];
+		techStack?: string[];
 		hide?: boolean;
 	} = $props();
 </script>
@@ -32,6 +34,9 @@
 				<Hideable><li>{detail}</li></Hideable>
 			{/each}
 		</ul>
+		{#if techStack.length}
+			<p class="text-left"><strong>Tech Stack:</strong> {techStack.join(', ')}</p>
+		{/if}
 	</Hideable>
 </div>
 
