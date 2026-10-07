@@ -18,7 +18,14 @@
         "Implemented Kafka-driven buy and sell workflows that update player balances and inventories, with persisted offset tracking and compensating rollback events for failed transactions.",
         "Exposed REST and gRPC APIs backed by isolated MongoDB databases, securing access with JWT authentication, role-based authorization, and request validation."
       ],
-      "techStack": ["Go", "Echo", "MongoDB", "Kafka", "gRPC", "Docker"],
+      "techStack": [
+        "Go",
+        "Echo",
+        "MongoDB",
+        "Kafka",
+        "gRPC",
+        "Docker"
+      ],
       "url": "github.com/supakornn/mmorpg-shop",
       "hide": false
     }
@@ -55,7 +62,15 @@
         "Added GraphQL client support, client-profile metrics, and parent-context propagation for Tempo to the Kotlin/Ktor service template ecosystem.",
         "Replacing ArchUnit with Konsist to express Kotlin-native architecture rules with less boilerplate and clearer tests."
       ],
-      "techStack": ["Kotlin", "Ktor", "Java", "OpenTelemetry", "Prometheus", "Grafana", "GraphQL"],
+      "techStack": [
+        "Kotlin",
+        "Ktor",
+        "Java",
+        "OpenTelemetry",
+        "Prometheus",
+        "Grafana",
+        "GraphQL"
+      ],
       "hide": false
     },
     {
@@ -71,7 +86,15 @@
         "Developed unit and integration tests for the Rakuten import flow, validating new mapping and validation logic across affected backend services.",
         "Investigated import failures during the A/B rollout by comparing Rakuten payloads, requests, and Grafana logs. Identified missing data fields that caused unhandled errors."
       ],
-      "techStack": ["C#", "ASP.NET Core", "TypeScript", "React", "PostgreSQL", "Couchbase", "Grafana"]
+      "techStack": [
+        "C#",
+        "ASP.NET Core",
+        "TypeScript",
+        "React",
+        "PostgreSQL",
+        "Couchbase",
+        "Grafana"
+      ]
     },
     {
       "position": "Research Assistant (Apprenticeship)",
@@ -86,7 +109,15 @@
         "Integrated GPT-4o and Gemini through Vercel AI SDK for rubric generation and AI-assisted grading with score explanations, batch processing, and human review.",
         "Protected professor-provided AI keys with AES-256-GCM encryption and implemented role-based access control and input validation."
       ],
-      "techStack": ["React", "TypeScript", "TanStack", "Hono", "PostgreSQL", "Vercel AI SDK", "OpenAI", "Gemini", "Zod"]
+      "techStack": [
+        "React",
+        "TypeScript",
+        "TanStack",
+        "Hono",
+        "PostgreSQL",
+        "Vercel AI SDK",
+        "Zod"
+      ]
     }
   ],
   "educations": [
