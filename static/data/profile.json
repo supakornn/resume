@@ -15,10 +15,10 @@
     {
       "name": "MMORPG Shop",
       "details": [
-        "Built an MMORPG item-shop backend with auth, player, item, inventory, and payment domains.",
-        "Applied DDD to split business domains and Clean Architecture with handler, use-case, and repository layers.",
-        "Implemented event-driven buy/sell workflows with compensating rollback when a transaction step fails.",
-        "Built protected service APIs with persistent data storage and role-based access control."
+        "Independently built an MMORPG shop backend across auth, player, item, inventory, and payment services.",
+        "Applied DDD boundaries and handler, use-case, and repository layers to organize each service.",
+        "Implemented Kafka-based buy and sell workflows that update player balances and inventory, with rollback for failed steps.",
+        "Added REST and gRPC APIs with JWT authentication, role-based access control, and MongoDB persistence."
       ],
       "techStack": ["Go", "Echo", "MongoDB", "Kafka", "gRPC", "Docker"],
       "url": "github.com/supakornn/mmorpg-shop",
@@ -64,9 +64,10 @@
         "Jun. 2026 - Jul. 2026"
       ],
       "details": [
-        "Added a new OTA to Agoda’s URL-based property-import flow across backend services and the BFF.",
-        "Mapped and validated OTA property data to fit Agoda’s internal domain model.",
-        "Monitored an A/B rollout, quickly diagnosing and resolving issues to maintain a smooth user experience."
+        "Implemented end-to-end support for a new OTA integration across four backend microservices and the BFF.",
+        "Built mapping and validation logic to translate OTA data into Agoda’s internal property model.",
+        "Added unit and integration tests for the new OTA import flow across affected services.",
+        "Diagnosed data issues during an early A/B experiment by tracing application logs and requests in Grafana."
       ],
       "techStack": ["C#", "ASP.NET Core", "TypeScript", "React", "PostgreSQL", "Couchbase", "Grafana"]
     },
@@ -79,9 +80,9 @@
         "Feb. 2026 - May 2026"
       ],
       "details": [
-        "Built the MVP of an AI-assisted grading platform from the ground up.",
-        "Integrated multiple LLM providers with dynamic model selection and per-user API key management.",
-        "Designed a rubric-driven grading workflow with type-safe schemas, authentication, and role-based access control."
+        "Independently built a research proof of concept for teachers to manage exams, answer keys, rubrics, and student submissions.",
+        "Added AI assistance for rubric creation and student-answer grading, including an explanation for each score.",
+        "Implemented protected teacher workflows with input validation and role-based access control."
       ],
       "techStack": ["React", "TypeScript", "TanStack", "Hono", "PostgreSQL", "Vercel AI SDK", "Zod"]
     }
