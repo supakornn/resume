@@ -84,7 +84,7 @@
       "details": [
         "Collaborated with the team to deliver the Rakuten OTA integration across backend microservices and the BFF, supporting property-data mapping and validation.",
         "Developed unit and integration tests for the Rakuten import flow, validating new mapping and validation logic across affected backend services.",
-        "Investigated import failures during the A/B rollout by comparing Rakuten payloads, requests, and Grafana logs. Identified missing data fields that caused unhandled errors."
+        "Monitored the Rakuten A/B rollout in Grafana, tracing requests and payloads to investigate import failures and data issues."
       ],
       "techStack": [
         "C#",
