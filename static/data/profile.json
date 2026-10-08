@@ -82,9 +82,9 @@
         "Jun. 2026 - Jul. 2026"
       ],
       "details": [
-        "Collaborated with the team to deliver the Rakuten OTA integration across backend microservices and the BFF, supporting property-data mapping and validation.",
-        "Developed unit and integration tests for the Rakuten import flow, validating new mapping and validation logic across affected backend services.",
-        "Monitored the Rakuten A/B rollout in Grafana, tracing requests and payloads to investigate import failures and data issues."
+        "Collaborated with the team to deliver an additional OTA integration across backend microservices and the BFF, supporting property-data mapping and validation.",
+        "Developed unit and integration tests for the import flow, validating new mapping and validation logic across affected backend services.",
+        "Monitored the A/B rollout of an additional OTA in Grafana, tracing requests and payloads to investigate import failures and data issues."
       ],
       "techStack": [
         "C#",
