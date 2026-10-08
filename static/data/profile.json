@@ -14,9 +14,9 @@
     {
       "name": "MMORPG Shop",
       "details": [
-        "Independently built a Go-based MMORPG shop composed of 5 domain microservices for authentication, player, item, inventory, and payment management.",
-        "Implemented Kafka-driven buy and sell workflows that update player balances and inventories, with persisted offset tracking and compensating rollback events for failed transactions.",
-        "Exposed REST and gRPC APIs backed by isolated MongoDB databases, securing access with JWT authentication, role-based authorization, and request validation."
+        "Built an MMORPG shop in Go with 5 domain microservices for authentication, player, item, inventory, and payment management.",
+        "Implemented Kafka workflows for buying and selling items, with persisted offset tracking and rollback events for failed transactions.",
+        "Exposed REST and gRPC APIs backed by isolated MongoDB databases with JWT authentication, authorization by role, and request validation."
       ],
       "techStack": [
         "Go",
@@ -58,9 +58,9 @@
         "Aug. 2026 - Present"
       ],
       "details": [
-        "Building a configurable Kotlin/Ktor service scaffold template for Agoda teams, supporting REST, GraphQL, BFF, database, testing, and local-development options.",
-        "Added GraphQL client support, client-profile metrics, and parent-context propagation for Tempo to the Kotlin/Ktor service template ecosystem.",
-        "Replacing ArchUnit with Konsist to express Kotlin-native architecture rules with less boilerplate and clearer tests."
+        "Building a configurable Kotlin/Ktor service scaffold template for Agoda teams, supporting REST, GraphQL, BFF, database, testing, and local development options.",
+        "Added GraphQL client support, metrics by client profile, and parent context propagation for Tempo to the Kotlin/Ktor template ecosystem.",
+        "Replacing ArchUnit with Konsist to express Kotlin architecture rules with less boilerplate and clearer tests."
       ],
       "techStack": [
         "Kotlin",
@@ -105,9 +105,9 @@
         "Feb. 2026 - May 2026"
       ],
       "details": [
-        "Built a full-stack professor-facing exam-management proof of concept with manual, Excel-import, and AI-generated rubric workflows, backed by 26 integration tests.",
-        "Integrated GPT-4o and Gemini through Vercel AI SDK for rubric generation and AI-assisted grading with score explanations, batch processing, and human review.",
-        "Protected professor-provided AI keys with AES-256-GCM encryption and implemented role-based access control and input validation."
+        "Built a web app as a proof of concept for professors to manage exams and create rubrics manually, from Excel imports, or with AI, backed by 26 integration tests.",
+        "Integrated GPT-4o and Gemini through Vercel AI SDK for rubric generation and AI grading with score explanations, batch processing, and human review.",
+        "Protected AI keys provided by professors with AES-256-GCM encryption and implemented access control by role and input validation."
       ],
       "techStack": [
         "React",
