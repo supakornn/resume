@@ -55,7 +55,7 @@
       "location": "Bangkok, TH",
       "url": "https://www.agoda.com/",
       "years": [
-        "Aug. 2026 - Present"
+        "Aug. 2026 - Dec. 2026"
       ],
       "details": [
         "Building a configurable Kotlin/Ktor service scaffold template for Agoda teams, supporting REST, GraphQL, BFF, database, testing, and local development options.",
